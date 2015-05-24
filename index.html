@@ -9,36 +9,67 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <!-- Scripts -->
+        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="scripts/categories.js"></script>
 
     </head>
     <body>
-
-        <nav>
-            <h1><a href="#" class="logo">Genetechs</a></h1>
-            <ul>
-                <li><a href="index.html" class="current">Baby portal</a></li>
-                <li><a href="over.html">Over genetechs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
         <section class="container">
-        
-            <section class="images">
-                
-                <div class="specs">
-                    <img class="baby" src="img/white/baby_1.jpg"/>
-                    <img class="hair" src="img/white/hair_1.png"/>
-                    <img class="eyes" src="img/white/eyes_1.png"/>
-                    <img class="nose" src="img/white/nose_1.png"/>
-                    <img class="mouth" src="img/white/mouth_1.png"/>
-                </div>
-                
+            <section class="baby">
             </section>
             
             <section class="controls">
+                <div class="boxes">
+                    <div id="gender" class="categories"><span>Gender</span></div>
+                    <div id="skin" class="categories"><span>Skin</span></div>
+                    <div id="eyes" class="categories"><span>Eyes</span></div>
+                    <div id="hair" class="categories"><span>Hair</span></div>
+                </div>
+                <button id="continue">Continue</button>
+            </section>
             
+            <section class="gendercontrols expandcontrols">
+                <h2>Gender</h2>
+                <h3>Available DNA</h3>
+                <div class="choice gendermale"><i class="fa fa-venus fa-3x"></i></div>
+                <div class="choice genderfemale" style="margin-right: 0;"><i class="fa fa-mars fa-3x"></i></div>
+            </section>
+            
+            <section class="skincontrols expandcontrols">
+                <h2>Skin tone</h2>
+                <h3>Available DNA</h3>
+                <div class="choice skintoneblack"><div class="skintone"></div></div>
+                <div class="choice skintonecauc" style="margin-right: 0;"><div class="skintone"></div></div>
+                <div class="choice skintoneasian"><div class="skintone"></div></div>
+                <div class="choice skintoneolive" style="margin-right: 0;"><div class="skintone"></div></div>
+            </section>
+            
+            <section class="eyescontrols expandcontrols">
+                <h2>Eye color</h2>
+                <h3>Available DNA</h3>
+                <div class="choice eyesblue"><div class="eyecolor"></div></div>
+                <div class="choice eyeshazel" style="margin-right: 0;"><div class="eyecolor"></div></div>
+                <div class="choice eyesbrown"><div class="eyecolor"></div></div>
+                <div class="choice eyesgrey" style="margin-right: 0;"><div class="eyecolor"></div></div>
+                <div class="choice eyesgreen"><div class="eyecolor"></div></div>
+            </section>
+            
+            <section class="haircontrols expandcontrols">
+                <h2>Hair style</h2>
+                <h3>Available DNA</h3>
+                <h4>Color</h4>
+                <div class="choice hairblack"><div class="haircolor"></div></div>
+                <div class="choice hairbrown" style="margin-right: 0;"><div class="haircolor"></div></div>
+                <div class="choice hairblond"><div class="haircolor"></div></div>
+                <div class="choice hairred" style="margin-right: 0; margin-bottom: 2em;"><div class="haircolor"></div></div>
+                <h4>Style</h4>
+                <div class="choicelong">Curly</div>
+                <div class="choicelong">Straight</div>
+                <div class="choicelong">Wavy</div>
             </section>
         
         </section>
