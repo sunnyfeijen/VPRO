@@ -43,17 +43,17 @@
         <form action='index.php' method='POST'>
             <div id='parent1' class='parents'>
             <h1>parent 1</h1>
-              <input type='text' name='parent1_name' required placeholder='name'><br/>
-              <input type='number' name="day1" min="1" max="31" required placeholder='dag'>
-              <input type='number' name="month1" min="1" max="12" required placeholder='maand'>
-              <input type='number' name="year1" min="1900" max="2000" required placeholder='jaar'>
+              <input type='text' name='parent1_name' required placeholder='name' value='ouder nr 1'><br/>
+              <input type='number' name="day1" min="1" max="31" required placeholder='dag' value='1'>
+              <input type='number' name="month1" min="1" max="12" required placeholder='maand' value='2'>
+              <input type='number' name="year1" min="1900" max="2000" required placeholder='jaar' value='1993'>
             </div>
             <div id='parent2' class='parents'>
             <h1>parent 2</h1>
-              <input type='text' name='parent2_name' required placeholder='name'>
-              <input type='number' name="day2" min="1" max="31" required placeholder='dag'>
-              <input type='number' name="month2" min="1" max="12" required placeholder='maand'>
-              <input type='number' name="year2" min="1900" max="2000" required placeholder='jaar'>
+              <input type='text' name='parent2_name' required placeholder='name' value='ouder nr 2'>
+              <input type='number' name="day2" min="1" max="31" required placeholder='dag' value='12'>
+              <input type='number' name="month2" min="1" max="12" required placeholder='maand' value='5'>
+              <input type='number' name="year2" min="1900" max="2000" required placeholder='jaar' value='1993'>
             </div>
             <a id='add_parent'>add parent</a>
             <div id='parent3' class='parents'>
@@ -72,12 +72,12 @@
             </div>
             <select name="gender">
                   <option value="boy">boy</option>
-                  <option value="girl">girl</option>
+                  <!-- <option value="girl">girl</option> -->
             </select>
             <select name="skintone">
                   <option value="white">white</option>
                   <option value="arabic">arabic</option>
-                  <option value="olive">olive (kim cardashian)</option>
+                  <option value="olive">olive</option>
                   <option value="asian">asian</option>
                   <option value="brown">brown</option>
                   <option value="black">black</option>
@@ -91,7 +91,6 @@
             </select>
             <select name="hair_type">
                   <option value="straight">straight</option>
-                  <option value="wavy">wavy</option>
                   <option value="curly">curly</option>
                   <option value="afro">afro</option>
             </select>
