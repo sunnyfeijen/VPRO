@@ -92,7 +92,7 @@ input[type='submit']:hover{
 .warning{
 
   position: absolute;
-  background-color: #4a736e;
+  background-color: white;
   left:-800;
   padding:1%;
   bottom:0;
