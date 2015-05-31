@@ -114,6 +114,23 @@
                 ?>
                 
             </section>
+
+            <script type="text/javascript">
+            $(document).ready(function(){
+
+            $('.warning a').click(function(){
+                $('.warning').hide();
+                $('.warning p').hide();
+            })
+});
+            </script>
+
+            <section class='warning'>
+                <h1>warning</h1>
+                <p id='hair_brown_warning'>50% van de mensen met roos heeft een bruine haarkleur</p>
+                <p id='hair_black_warning'>iel zwarte haren</p>
+                <a>close</a>
+            </section>
         
         </section>
 

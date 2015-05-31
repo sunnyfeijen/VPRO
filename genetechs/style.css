@@ -89,6 +89,21 @@ input[type="submit"]{
 input[type='submit']:hover{
   background-color: white;
 }
+.warning{
+  display: none;
+  position: absolute;
+  background-color: #4a736e;
+  width:18%;
+  left:40%;
+  padding:1%;
+  top:40vh;
+}
+.warning h1{
+  text-transform: uppercase;
+}
+.warning p{
+  display: none;
+}
 .container{
     width: 100%;
     position: absolute;

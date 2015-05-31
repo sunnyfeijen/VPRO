@@ -46,8 +46,13 @@
 		    echo ".png)');";
 
 			echo "if($(this).attr('id')=='brown'){";
-				echo "$('hair_brown_warning').show();";
-				echo "}";
+				echo "$('.warning').show();";
+				echo "$('#hair_brown_warning').show();";
+			echo "}";
+			echo "if($(this).attr('id')=='black'){";
+				echo "$('.warning').show();";
+				echo "$('#hair_black_warning').show();";
+			echo "}";
 
 			//echo "console.log(".$hair_type.");";
 			//echo "console.log(".$hair_color.");";
