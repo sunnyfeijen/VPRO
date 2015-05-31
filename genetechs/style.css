@@ -94,13 +94,22 @@ input[type='submit']:hover{
     position: absolute;
 }
 .baby{
-    width: 85%;
+  width: 85%;
     height: 100vh;
     background-repeat: no-repeat;
+    
     background-size: cover;
     float: left;
 }
-.baby_hair{
+.baby_hair, .baby_eye, .girl{
+    width: 85%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    float: left;
+}
+/*.baby_hair{
     width: 85%;
     height: 100vh;
     position: absolute;
@@ -115,7 +124,7 @@ input[type='submit']:hover{
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
-}
+}*/
 .controls{
     background-color: #585359;
     width: 220px;

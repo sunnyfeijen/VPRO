@@ -1,5 +1,6 @@
 <?php
     include('calculate_baby.php');
+    include('warnings.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,6 +33,8 @@
             <section class="baby_hair">
             </section>
             <section class="baby_eye">
+            </section>
+            <section class="girl">
             </section>
             
             
