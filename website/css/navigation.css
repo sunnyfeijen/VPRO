@@ -1,6 +1,14 @@
+nav
+{
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
 header
 {
     height: 6.5em;
+    background-color: #585359;
 }
 
 a 
@@ -13,11 +21,6 @@ a
     -ms-transition: all 0.3s ease;
 }
 
-a:hover 
-{
-    color: #000;
-}
-
 #header-nav 
 {
     height: inherit;
@@ -25,7 +28,6 @@ a:hover
     top: 0;
     display: block;
     width: 100%;
-    font-size: 120%;
     -webkit-transition: -webkit-transform 0.7s 0.3s ease;
     -moz-transition: -moz-transform 0.7s 0.3s ease;
     -ms-transition: -ms-transform 0.7s 0.3s ease;
@@ -49,7 +51,7 @@ a.menu-link
     float: right;
     display: block;
     padding: 0.7em;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
 }
 
 nav[role=navigation] 
@@ -74,7 +76,6 @@ nav[role=navigation]
 nav[role=navigation].active 
 {
     max-height: 15em;
-    background-color: #49736b;
 }
 
 nav[role=navigation] ul 
@@ -89,14 +90,24 @@ nav[role=navigation] ul
 nav[role=navigation] li
 {
     width: 100%;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #000;
+    background-color: #49736b;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+
+nav[role=navigation] li:hover
+{
+    background-color: #525c5e;
 }
 
 nav[role=navigation] li a 
 {
     display: block;
     padding: 0.8em;
-    font-size: 0.9em;
+    font-size: 85%;
 }
 
 .menu-link 
@@ -111,18 +122,38 @@ nav[role=navigation] li a
 
 .brand img
 {
-    height: 70px;
+    height: 50px;
     padding: 1em;
+    padding-top: 1.5em;
+    padding-right: 0em;
 }
 
 nav[role=navigation] i
 {
     cursor: pointer;
     margin-top: -0.1em;
+    width: 100%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
 }
 
-@media screen and (min-width: 48.25em) 
+@media screen and (min-width: 700px) 
 {
+  .wrap
+  {
+    height: inherit;
+    padding: 0% 0%;
+  }
+    
+  #menu
+  {
+      width: 440px;
+      float: right;
+      position: relative;
+  }
+    
   a.menu-link 
   {
         display: none;
@@ -131,7 +162,7 @@ nav[role=navigation] i
   .js nav[role=navigation] 
   {
         max-height: none;
-        padding-top: 1.5em;
+        padding-top: 2.8em;
   }
     
   nav[role=navigation] ul 
@@ -147,19 +178,15 @@ nav[role=navigation] i
         display: inline-block;
         margin: 0 0.25em;
         width: auto;
-        border: none;
+        border: 1px solid #000;
   }
     
   nav[role=navigation] li a 
   {
         border: 0;
+        padding: 0.5em 1em;
   }
-
-  a:hover 
-  {
-        color: #49736b;
-  }
-
+    
   nav[role=navigation] i
   {
         display: none;
@@ -169,7 +196,27 @@ nav[role=navigation] i
   {
         background-color: transparent;
   }
+
+  .brand img
+  {
+    padding-top: 2em;
+    height: 50px;
+  }
     
+}
+
+@media screen and (min-width: 900px){
+  .wrap
+  {
+    height: inherit;
+    padding: 0% 5%;
+  }
+    
+  .brand img
+  {
+    padding-top: 1.5em;
+    height: 60px;
+  }
 }
 
 .container 

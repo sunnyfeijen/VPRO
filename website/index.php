@@ -10,7 +10,7 @@ include 'build/head.php';
   		include 'build/navigatie.php';
   	?>
 </header>
-    <section class="contentwrap">
+    <section class="welkom">
         <div class="textwrap">
             <h1 class="titel">Welkom</h1>
             <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
