@@ -55,16 +55,7 @@
 				},800);";
 				echo "$('#hair_brown_warning').show();";
 			echo "}";
-			echo "if($(this).attr('id')=='black'){";
-				echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
-                echo "$('.warning p').hide();";
-				echo "$('.warning').animate({
-					left:'0px'
-				},800);";
-				echo "$('#hair_black_warning').show();";
-			echo "}";
+			
 
 			//echo "console.log(".$hair_type.");";
 			//echo "console.log(".$hair_color.");";
@@ -88,6 +79,17 @@
 		    	echo "'_'";
 		    	echo "+new_hair_style+";
 		    	echo "'.png)');";
+
+				echo "if($(this).attr('id')=='afro'){";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
+				echo "$('#hair_afro_warning').show();";
+			echo "}";
 
 				echo "return new_hair_style;";
 				

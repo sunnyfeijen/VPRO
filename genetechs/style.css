@@ -99,6 +99,7 @@ input[type='submit']:hover{
   bottom:0;
 }
 .warning a{
+  cursor: pointer;
   position: absolute;
   top: 0.1em;
   right: 0.5em;
