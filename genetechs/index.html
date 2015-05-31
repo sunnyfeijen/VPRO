@@ -24,6 +24,7 @@
             var parent3_visible = false;
             var parent4_visible = false;
             $('#add_parent').click(function(){
+              console.log('hoi');
                 if(parent3_visible == false){
                   $('#parent3').css('opacity','1');
                   parent3_visible = true;
@@ -49,25 +50,25 @@
             </div>
             <div id='parent2' class='parents'>
             <h1>parent 2</h1>
-              <input type='text' name='parent2_name' required>
-              <input type='number' name="day2" min="1" max="31" required>
-              <input type='number' name="month2" min="1" max="12" required>
-              <input type='number' name="year2" min="1900" max="2000" required>
+              <input type='text' name='parent2_name' required placeholder='name'>
+              <input type='number' name="day2" min="1" max="31" required placeholder='dag'>
+              <input type='number' name="month2" min="1" max="12" required placeholder='maand'>
+              <input type='number' name="year2" min="1900" max="2000" required placeholder='jaar'>
             </div>
             <a id='add_parent'>add parent</a>
             <div id='parent3' class='parents'>
             <h1>parent 3</h1>
-              <input type='text' name='parent3_name'>
-              <input type='number' name="day3" min="1" max="31">
-              <input type='number' name="month3" min="1" max="12">
-              <input type='number' name="year3" min="1900" max="2000">
+              <input type='text' name='parent3_name' placeholder='name'>
+              <input type='number' name="day3" min="1" max="31" placeholder='dag'>
+              <input type='number' name="month3" min="1" max="12" placeholder='maand'>
+              <input type='number' name="year3" min="1900" max="2000" placeholder='jaar'>
             </div>
             <div id='parent4' class='parents'>
             <h1>parent 4</h1>
-              <input type='text' name='parent4_name'>
-              <input type='number' name="day4" min="1" max="31">
-              <input type='number' name="month4" min="1" max="12">
-              <input type='number' name="year4" min="1900" max="2000">
+              <input type='text' name='parent4_name' placeholder='name'>
+              <input type='number' name="day4" min="1" max="31" placeholder='dag'>
+              <input type='number' name="month4" min="1" max="12" placeholder='maand'>
+              <input type='number' name="year4" min="1900" max="2000" placeholder='jaar'>
             </div>
             <select name="gender">
                   <option value="boy">boy</option>

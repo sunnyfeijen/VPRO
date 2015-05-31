@@ -33,7 +33,7 @@ form h1{
   padding:0.5em 0.5em 2.5em 0.5em;
   margin-bottom: 1em;
 }
-#add_parent{
+/*#add_parent{
   padding:1em;
   background-color: #585359;
   border: 1px solid black;
@@ -42,7 +42,10 @@ form h1{
   letter-spacing: 1px;
   float:left;
   text-transform: uppercase;
-}
+}*/
+/*#add_parent{
+  position: absolute;
+}*/
 input{
   background-color: rgba(75,115,107,0.3);
   padding-left: 1em;
