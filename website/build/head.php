@@ -8,12 +8,12 @@
 
  	<!-- Style -->
   	<link rel="stylesheet" href="css/style.css">
-
-  	<!-- Responsive -->
-  	<link rel="stylesheet" type="text/css" href="css/responsive.css" media = "screen and (max-width:1640px)">
-
+    
   	<!-- Navigation -->
   	<link rel="stylesheet" href="css/navigation.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
 	<!-- Jquery -->
   	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

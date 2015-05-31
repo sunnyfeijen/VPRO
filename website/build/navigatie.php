@@ -1,14 +1,13 @@
 <div id="header-nav">
-    	<div class="wrap">
-  		<!-- H1 for SEO -->
-    		<div class="brand">
-    		</div>
-    	<!-- Small screen menu button -->
-			<a href="#menu" class="menu-link">
-	      		<span class="bar1"></span>
-		      	<span class="bar2"></span>
-		      	<span class="bar3"></span>
-	     	</a>
+    <div class="wrap">
+    <!-- H1 for SEO -->
+    <div class="brand">
+        <img src="img/logo.png">
+    </div>
+    <!-- Small screen menu button -->
+        <a href="#menu" class="menu-link">
+	      	<i class="fa fa-bars fa-2x"></i>
+	    </a>
     	<!-- /Small screen menu button -->
     
     	<!-- Menu Items -->
