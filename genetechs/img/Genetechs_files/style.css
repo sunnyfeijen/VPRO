@@ -1,0 +1,387 @@
+/*CSS DOCUMENT*/
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    position: absolute;
+}
+.baby{
+    width: 85%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.baby_hair{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.baby_eye{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.baby_nose{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-image: url('img/baby/white_nose.png');
+}
+.baby_mouth{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-image: url('img/baby/white_mouth.png');
+}
+.controls{
+    background-color: #585359;
+    width: 250px;
+    height: 100%;
+    right:0;
+    top:0;
+    position: absolute;
+    z-index: 1;
+}
+#shoppingcart{
+    background-image: url('img/shoppingcart.png');
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50px;
+  top: 0;
+  right: 0;
+  width: 50px;
+  background-color: #49736b;
+  transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+#shoppingcart_square{
+    width: 20px;
+    height: 20px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    background-color: #49736b;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: -1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+#shoppingcart:hover{
+    cursor: pointer;
+    background-color: #757175;
+    background-image: url('img/shoppingcart_black.png');
+}
+#shoppingcart:hover #shoppingcart_square{
+    background-color: #757175;
+    right: 35px;
+}
+.expandcontrols{
+    background-color: rgba(88, 83, 89, 0.8);
+  width: 170px;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 0;
+  height: 80%;
+  z-index: 0;
+  overflow: scroll;
+  padding: 0 1em 1em 1em;
+}
+.expandcontrols h2{
+      color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-left: 0.7em solid #49736b;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  margin-left: -1em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+.expandcontrols h3{
+    color: #585359;
+    /*background-color: #FFF;*/
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    
+    margin-bottom: 0.5em;
+    padding-left: 0.3em;
+    font-size: 0.8em;
+}
+.expandcontrols h4{
+    margin-top: 2em;
+    color: black;
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.controls .boxes{
+    margin-top: 10em;
+    overflow: hidden;
+}
+.categories{
+    display: block;
+    text-align: center;
+    border: 1px solid #1a1a1a;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.categories:nth-child(odd){
+    margin-left: 20px;
+}
+.categories p{
+    color:white;
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 40px;
+}
+.categories:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 800;
+    background-color: #666167;
+    cursor: pointer;
+}
+#continue{
+    background-color: #49736b;
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 1em 6.8em;
+    display: block;
+    bottom: 1em;
+    right: 2em;
+    position: fixed;
+}
+.choice{
+    height: 5em;
+    width: 5em;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    background-color: black;
+    float: left;
+}
+.character_choice{
+    width: 10.5em;
+  background-color: #49736b;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+.character_choice p{
+    text-align: center;
+    font-size: 0.8em;
+    /*text-transform: uppercase;*/
+
+}
+
+/*.character_choices h4{
+    color:black;
+    font-weight: 800;
+    margin-top: 0;
+    padding-left: 0.3em;
+}*/
+.all_choices .choice:nth-child(even){
+    margin-right: 0;
+}
+.all_choices{
+    overflow: hidden;
+}
+.gendermale, .genderfemale{
+    background-color: #49736b;
+}
+.selected{
+    background-color: #edeae5;
+}
+.choice:hover, .choicelong:hover{
+    background-color: #DDD;
+    cursor: pointer;
+}
+.choicelong{
+    height: 1em;
+    text-transform: uppercase;
+    width: 10.5em;
+    margin-top: 0.5em;
+    display: block;
+    background-color: #999;
+}
+.choicelong{
+    color: #FFF;
+    padding: 0.5em 0em;
+    padding-left: 0.5em;
+    font-weight: 300;
+}
+.choice i{
+    margin-left: 0.78em;
+    margin-top: 0.75em;
+}
+i.fa.fa-venus.fa-3x{
+    font-size: 2em;
+}
+i.fa.fa-mars.fa-3x{
+    font-size: 1.9em;
+}
+.choice .fa-venus{
+    margin-left: 0.9em;
+}
+/*.skintone, .eyecolor, .haircolor{
+    width: 97.5%;
+    height: 97.5%;
+    margin: 1.25%;
+}*/
+.fill{
+    width: 97.5%;
+    height: 97.5%;
+    margin: 1.25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*SKINTONE COLORS*/
+.skintonewhitelight{
+    background-color: #f5f5f5;
+}
+.skintonewhite{
+    background-color: #f1cfc1;
+}
+.skintonewhitedark{
+    background-color: #d9a18a;
+}
+.skintonebrownwhite{
+    background-color: white;
+}
+.skintonearabicwhite{
+    background-color: white;
+}
+.skintonearabic{
+    background-color: orange;
+}
+.skintonearabicyellow{
+    background-color: yellow;
+}
+.skintoneolivelight{
+    background-color: green;
+}
+.skintoneolive{
+    background-color: darkgreen;
+}
+.skintoneolivedark{
+    background-color: brown;
+}
+.skintoneasianwhite{
+    background-color: white
+}
+.skintoneasianyellow{
+    background-color: yellow;
+}
+.skintonebrownwhite{
+    background-color: #eabc9f;
+}  
+.skintonebrownlight{
+    background-color: #dfa077;
+}
+.skintonebrowndark{
+    background-color: #381602;
+}
+/* COLORS*/
+.eyesblue{
+    background-color: #3e5a7d;
+}
+.eyeslightbrown{
+    background-color: #814933;
+}
+.eyesdarkbrown{
+    background-color: #523328;
+}
+.eyesgray{
+    background-color: #6a6f73;
+}
+.eyesgreen{
+    background-color: #3e5d4b;
+}
+/*HAIR COLORS*/
+.hair_black{
+    background-color: #0d1009;
+}
+.hair_brown{
+    background-color: #281c14;
+}
+.hair_blond_light{
+    background-color: #bea078;
+}
+.hair_blond_dark{
+    background-color: #796536;
+}
+.hair_ginger{
+    background-color: #974c27;
+}
+/*HAIR TYPES*/
+.straight{
+    background-image: url(img/straight.jpg);
+}
+.curly{
+    background-image: url(img/curly.png);
+}
+.wavy{
+    background-image: url(img/wavy.png);
+}
+.afro{
+    background-image: url(img/afro.png);
+}
+.hairblond{
+    background-color: #b69665;
+}
+.hairred{
+    background-color: #bc5212;
+}
+p.choice_description {
+    color: black;
+    font-weight: 300;
+  padding-top: 0.2em;
+  padding-bottom: 0.4em;
+  font-size: 0.7em;
+  background-color: #49736b;
+  text-align: center;
+}
+.hairtype:hover p.choice_description {
+    color:white;

@@ -1,0 +1,626 @@
+/*CSS DOCUMENT*/
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+form{
+  width:50%;
+  margin: auto;
+    padding: 1em 25% 0 25%;
+  
+  background-color: #4a736b;
+  color: white;
+  min-height: 100vh;
+}
+form h1{
+  font-size: 0.8em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.parents{
+  border: 1px solid black;
+  background-color: #585359;
+  padding:0.5em 0.5em 2.5em 0.5em;
+  margin-bottom: 1em;
+}
+#add_parent{
+  padding:1em;
+  background-color: #585359;
+  border: 1px solid black;
+  font-weight: 300;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  float:left;
+  text-transform: uppercase;
+}
+input{
+  background-color: rgba(75,115,107,0.3);
+  padding-left: 1em;
+  border: 1px solid black;
+  margin-top: 1em;
+  height:25px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+input[type="number"]{
+  min-width: 70px;
+  text-transform: none;
+}
+select{
+  background-color: rgba(88,83,89,0.5);
+  border: 1px solid black;
+  color: white;
+  height:25px;
+  margin:1em;
+  text-transform: uppercase;
+}
+input[type="submit"]{
+  cursor: pointer;
+  padding: 1em;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid black;
+  font-weight: 800;
+  font-size: 2em;
+  color:#4b736b;
+  top: 200px;
+  right: 4%;
+  width: 15%;
+  position: absolute;
+  letter-spacing: 1px;
+  float: left;
+  text-transform: uppercase;
+  height: auto;
+  margin: 0;
+}
+input[type='submit']:hover{
+  background-color: white;
+}
+.container{
+    width: 100%;
+    position: absolute;
+}
+.baby{
+    width: 85%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.baby_hair{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.baby_eye{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.controls{
+    background-color: #585359;
+    width: 220px;
+    height: 100%;
+    right:0;
+    top:0;
+    position: absolute;
+    z-index: 1;
+}
+.change{
+    background-color: #49736b;
+  cursor: pointer;
+  position: absolute;
+  height: 1.5em;
+  width:2em;
+  top: 0;
+  right: 0;
+    background-image: url('img/done.png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.shopping_cart{
+    background-image: url('img/shoppingcart_black.png');
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50px;
+  top: 0;
+  right: 0;
+  width: 50px;
+  background-color: #49736b;
+  border-bottom: 1px solid black;
+    border-left: 1px solid black;
+  transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+#shoppingcart_square{
+    width: 20px;
+    height: 20px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    background-color: #49736b;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: -1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.shopping_cart:hover{
+    cursor: pointer;
+    background-color: rgba(73,115,107,0.3);
+    
+    /*background-image: url('img/shoppingcart_black.png');*/
+}
+.shopping_cart:hover #shoppingcart_square{
+    background-color: #757175;
+    right: 35px;
+}
+.shopping_cart_selected{
+    z-index: 99;
+    background-color: #49736b;
+  background-image: url('img/close.png');
+  background-size: 25%;
+  height: 25px;
+  width: 25px;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+}
+#shoppingbag{
+      background-color: rgba(255,255,255,0.5);
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+    z-index: 9;
+  width: 195px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  right:0;
+}
+/*#shoppingbag p:last-child{
+    float:right;
+    margin-right: 30px;
+}*/
+#shoppingbag p{
+    font-size: 0.8em;
+    float:left;
+}
+.shoppingbag_list{
+    float: left;
+    width:170px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.shoppingbag_list:first-child {
+  margin-top: 45px;
+}
+#shoppingbag p:nth-child(even){
+    float:right;
+}
+.shoppingbag_list p:last-child{
+
+    margin-right: 25px;
+}
+#checkout_button{
+    cursor: pointer;
+    background-color: #49736b;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    position:absolute;
+    bottom: 25px;
+    right: 24px;
+    font-size: 0.6em;
+    border:1px solid black;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#checkout_button:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+#checkout_button p{
+    margin-left: 0px;
+}
+.expandcontrols{
+    background-color: #79757a;
+  width: 170px;
+  position: absolute;
+  top: 4em;
+  bottom: 10%;
+  right: 0;
+    height: calc(100% - 5em);
+  z-index: 0;
+  overflow: scroll;
+
+  padding: 0 1em 1em 1em;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.control_title{
+  position: fixed;
+  width: calc(170px + 1em);
+  height: 4em;
+  border-left: 0.5em solid #79757a;
+  margin-left: -01em;
+  margin-top: -4em;
+  padding-left: 0.5em;
+  background-color: #79757a;
+}
+.expandcontrols h2{
+      color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-left: 0.5em solid #49736b;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  margin-left: -1em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+.expandcontrols h3{
+    color: #585359;
+    /*background-color: #FFF;*/
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    
+    margin-bottom: 0.5em;
+    
+    font-size: 0.8em;
+}
+.expandcontrols h4{
+    margin-top: 2em;
+    color: black;
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.controls .boxes{
+    margin-top: 10em;
+    overflow: hidden;
+}
+.categories{
+    ddisplay: block;
+  text-align: center;
+  border: 1px solid black;
+  height: 50px;
+  width: 170px;
+  background-color: #49736b;
+  text-transform: uppercase;
+  margin-left: 25px;
+  margin-top: 10px;
+  float: left;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+/*.categories:nth-child(odd){
+    margin-left: 20px;
+}*/
+.categories p{
+    font-weight: 400;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+.categories:hover{
+    /*border: 1px solid #fff;
+    color: #fff;*/
+    font-weight: 800;
+    background-color: rgba(73,115,107,0.3);
+    cursor: pointer;
+}
+#continue{
+    background-color: #49736b;
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 1em 6.8em;
+    display: block;
+    bottom: 1em;
+    right: 2em;
+    position: fixed;
+}
+.choice{
+    height: 4.8em;
+  width: 46%;
+  margin-left: 8%;
+  margin-top: 0.5em;
+  /* margin-right: 0.5em; */
+  background-color: black;
+  float: left;
+}
+.choice:nth-child(odd) {
+  margin-left: 0px;
+}
+
+.character_choice{
+    width: 10.5em;
+  background-color: #49736b;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  border:1px solid black;
+  cursor: pointer;
+}
+.character_choice:hover{
+
+    background-color: rgba(73,115,107,0.3);
+    cursor: pointer;
+}
+.hair_type_choice{
+    width: 10.5em;
+  background-color: #49736b;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  border:1px solid black;
+  cursor: pointer;
+    height:auto;
+}
+
+.hair_type_choice p{
+    text-align: center;
+    font-size: 0.8em;
+    /*text-transform: uppercase;*/
+
+}
+.hair_type_choices .selected{
+/*    border: 0.15em solid black;
+  width: 10.35em;
+  font-weight: 600;
+
+  padding-bottom: 0.42em;
+  padding-top: 0.42em;
+  background-color: #49736b;*/
+  background-color: rgba(255,255,255,0.5);
+}
+.character_choice p{
+    text-align: center;
+    font-size: 0.8em;
+    /*text-transform: uppercase;*/
+
+}
+
+/*.character_choices h4{
+    color:black;
+    font-weight: 800;
+    margin-top: 0;
+    padding-left: 0.3em;
+}*/
+.all_choices .choice:nth-child(even){
+    margin-right: 0;
+}
+.hair_type_choice:nth-child(even) {
+  margin-left: auto;
+}
+.all_choices{
+    overflow: hidden;
+}
+/*.choice:first-child, .choice:nth-child(2){
+  margin-top: 4em;
+}
+.all_choices.character_choices:nth-child(odd) {
+  margin-top: 4em;
+}
+.hair_type:first-child, .hair_type:nth-child(2){
+  margin-top: 0.5em;
+}
+.hair_color:first-child, .hair_color:nth-child(2){
+  margin-top: 6em;
+}*/
+
+.gendermale, .genderfemale{
+    background-color: #49736b;
+}
+.selected{
+    background-color: #edeae5;
+  /*    width: 4em;
+  height: 4em;
+  border: 0.5em solid black;*/
+}
+
+.character_choices .selected{
+/*border: 0.15em solid black; */
+  /* width: 10.35em; */
+  /* font-weight: 600; */
+  /* padding-bottom: 0.42em; */
+  /* padding-top: 0.42em; */
+  background-color: rgba(255,255,255,0.5);
+}
+.boxes .selected{
+  /*    border: 1px solid white;
+  color: white;*/
+  background-color: rgba(255,255,255,0.5);
+}
+
+.choice:hover, .choicelong:hover{
+    background-color: #DDD;
+    cursor: pointer;
+}
+.hair_type_choice:hover{
+    background-color: rgba(73,115,107,0.5);
+    cursor: pointer;
+}
+.choicelong{
+    height: 1em;
+    text-transform: uppercase;
+    width: 10.5em;
+    margin-top: 0.5em;
+    display: block;
+    background-color: #999;
+}
+.choicelong{
+    color: #FFF;
+    padding: 0.5em 0em;
+    padding-left: 0.5em;
+    font-weight: 300;
+}
+.choice i{
+    margin-left: 0.78em;
+    margin-top: 0.75em;
+}
+i.fa.fa-venus.fa-3x{
+    font-size: 2em;
+}
+i.fa.fa-mars.fa-3x{
+    font-size: 1.9em;
+}
+.choice .fa-venus{
+    margin-left: 0.9em;
+}
+/*.skintone, .eyecolor, .haircolor{
+    width: 97.5%;
+    height: 97.5%;
+    margin: 1.25%;
+}*/
+.fill{
+    width: 97.5%;
+    height: 97.5%;
+    margin: 1.25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*SKINTONE COLORS*/
+.skintonewhitelight{
+    background-color: #f5f5f5;
+}
+.skintonewhite{
+    background-color: #f1cfc1;
+}
+.skintonewhitedark{
+    background-color: #d9a18a;
+}
+.skintonebrownwhite{
+    background-color: white;
+}
+.skintonearabicwhite{
+    background-color: #ecc1b2;
+}
+.skintonearabic{
+    background-color: #e79e87;
+}
+.skintonearabicyellow{
+    background-color: #e3a26b;
+}
+.skintoneolivelight{
+    background-color: green;
+}
+.skintoneolive{
+    background-color: darkgreen;
+}
+.skintoneolivedark{
+    background-color: brown;
+}
+.skintoneasianwhite{
+    background-color: #e0c8c2;
+}
+.skintoneasian{
+    background-color: #c1a78c;
+}
+.skintoneasianyellow{
+    background-color: yellow;
+}
+.skintonebrownwhite{
+    background-color: #eabc9f;
+}  
+.skintonebrownlight{
+    background-color: #dfa077;
+}
+.skintonebrowndark{
+    background-color: #381602;
+}
+.skintoneblacklight{
+    background-color: #a4674b;
+}
+.skintoneblack{
+    background-color: #82442e;
+}
+.skintoneblackdark{
+    background-color: #522c26;
+}
+/* COLORS*/
+.eyesblue{
+    background-color: #3e5a7d;
+}
+.eyeslightbrown{
+    background-color: #814933;
+}
+.eyesdarkbrown{
+    background-color: #523328;
+}
+.eyesgray{
+    background-color: #6a6f73;
+}
+.eyesgreen{
+    background-color: #3e5d4b;
+}
+/*HAIR COLORS*/
+.hair_black{
+    background-color: #0d1009;
+}
+.hair_brown{
+    background-color: #503525;
+}
+.hair_blond_light{
+    background-color: #bea078;
+}
+.hair_blond_dark{
+    background-color: #796536;
+}
+.hair_ginger{
+    background-color: #974c27;
+}
+/*HAIR TYPES*/
+.straight{
+    background-image: url(img/straight.jpg);
+}
+.curly{
+    background-image: url(img/curly.png);
+}
+.wavy{
+    background-image: url(img/wavy.png);
+}
+.afro{
+    background-image: url(img/afro.png);
+}
+.hairblond{
+    background-color: #b69665;
+}
+.hairred{
+    background-color: #bc5212;
+}
+p.choice_description {
+    color: black;
+    font-weight: 300;
+  padding-top: 0.2em;
+  padding-bottom: 0.4em;
+  font-size: 0.7em;
+  background-color: #49736b;
+  text-align: center;
+}
+.hairtype:hover p.choice_description {
+    color:white;

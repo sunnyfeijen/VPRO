@@ -1,0 +1,203 @@
+/*CSS DOCUMENT*/
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    position: absolute;
+}
+.baby{
+    width: 85%;
+    height: 100vh;
+    background-image: url('../img/white/baby_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.controls{
+    background-color: #585359;
+    width: 288px;
+    height: 100%;
+    right:0;
+    top:0;
+    position: absolute;
+    z-index: 1;
+}
+.expandcontrols{
+    background-color: rgb(88, 83, 89);
+    background-color: rgba(88, 83, 89, 0.8);
+    width: 170px;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 0;
+    height: 80%;
+    z-index: 0;
+    padding: 1em;
+}
+.expandcontrols h2{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+.expandcontrols h3{
+    color: #585359;
+    /*background-color: #FFF;*/
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    
+    margin-bottom: 0.5em;
+    padding-left: 0.3em;
+    font-size: 0.8em;
+}
+.expandcontrols h4{
+    margin-top: 2em;
+    color: black;
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.controls .boxes{
+    margin-top: 10em;
+}
+.categories{
+    display: block;
+    text-align: center;
+    border: 1px solid #1a1a1a;
+    height: 3.8em;
+    width: 6.6em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    float: left;
+    padding-top: 2.8em;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.categories span{
+    font-weight: 500;
+}
+.categories:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    background-color: #666167;
+    cursor: pointer;
+}
+#continue{
+    background-color: #49736b;
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 1em 6.8em;
+    display: block;
+    bottom: 1em;
+    right: 2em;
+    position: fixed;
+}
+.choice{
+    height: 5em;
+    width: 5em;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    background-color: black;
+    float: left;
+}
+.gendermale, .genderfemale{
+    background-color: #49736b;
+}
+.choice:hover, .choicelong:hover{
+    background-color: #DDD;
+    cursor: pointer;
+}
+.choicelong{
+    height: 1em;
+    text-transform: uppercase;
+    width: 10.5em;
+    margin-top: 0.5em;
+    display: block;
+    background-color: #999;
+}
+.choicelong{
+    color: #FFF;
+    padding: 0.5em 0em;
+    padding-left: 0.5em;
+    font-weight: 300;
+}
+.choice i{
+    margin-left: 0.78em;
+    margin-top: 0.75em;
+}
+i.fa.fa-venus.fa-3x{
+    font-size: 2em;
+}
+i.fa.fa-mars.fa-3x{
+    font-size: 1.9em;
+}
+.choice .fa-venus{
+    margin-left: 0.9em;
+}
+.skintone, .eyecolor, .haircolor{
+    width: 97.5%;
+    height: 97.5%;
+    margin: 1.25%;
+}
+/*SKINTONE COLORS*/
+.skintoneblack{
+    background-color: #5a412f;
+}
+.skintonecauc{
+    background-color: #d5ae91;
+}
+.skintoneasian{
+    background-color: #c4b07f;
+}
+.skintoneolive{
+    background-color: #b69665;
+}
+/* COLORS*/
+.eyesblue{
+    background-color: #5fb5b6;
+}
+.eyesbrown{
+    background-color: #463426;
+}
+.eyeshazel{
+    background-color: #90783f;
+}
+.eyesgrey{
+    background-color: #5a7171;
+}
+.eyesgreen{
+    background-color: #728447;
+}
+/*HAIR COLORS*/
+.hairblack .haircolor{
+    background-color: #111;
+}
+.hairbrown .haircolor{
+    background-color: #463426;
+}
+.hairblond .haircolor{
+    background-color: #b69665;
+}
+.hairred .haircolor{
+    background-color: #bc5212;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://www.genetechs.nl/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Genetechs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="./Genetechs_files/style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <!-- Scripts -->
+        <script type="text/javascript" src="./Genetechs_files/jquery-1.11.3.min.js"></script>
+        
+        <script type="text/javascript" src="./Genetechs_files/categories2.js"></script>
+        <script type="text/javascript" src="./Genetechs_files/change_controls.js"></script>
+
+       
+        
+    <style type="text/css"></style></head>
+    <body>
+        <section class="container">
+
+            <section class="baby" style="background-image: url(http://www.genetechs.nl/img/baby/black_boy.jpg);">
+            </section>
+            <section class="baby_hair" style="background-image: url(http://www.genetechs.nl/img/baby/black_boy_hair_brown_straight.png);">
+            </section>
+            <section class="baby_eye" style="background-image: url(http://www.genetechs.nl/img/baby/black_boy_eyes_brown_light.png);">
+            </section>
+            
+            
+            <section class="controls">
+
+                <div id="shoppingcart"><div id="shoppingcart_square"></div></div>
+                <div class="boxes">
+                    <div id="gender" class="categories"><p>Gender</p></div>
+                    <div id="skin" class="categories selected_categorie"><p>Skin</p></div>
+                    <div id="eyes" class="categories"><p>Eyes</p></div>
+                    <div id="hair" class="categories"><p>Hair</p></div>
+                    <div id="character" class="categories"><p>Character</p></div>
+                </div>
+                <button id="continue">Continue</button>
+            </section>
+            
+            <section class="gendercontrols expandcontrols" style="display: none; right: 0%;">
+                <h2>Gender</h2>
+                <h3>Available DNA</h3>
+                <div class="all_choices"><div id="girl" class="choice gendermale gender" alt="gender"><i class="fa fa-venus fa-3x"></i></div><div id="boy" class="choice genderfemale gender selected" alt="gender"><i class="fa fa-mars fa-3x"></i></div></div>                
+            </section>
+            
+            <section class="skincontrols expandcontrols" style="display: block; right: 250px;">
+                <h2>Skin tone</h2>
+                <h3>Available DNA</h3>
+                <script type="text/javascript">$(document).ready(function(){var skintone = 'black';$('#'+skintone).addClass('selected');});</script><div class="all_choices">
+			                    <div class="choice skintone" alt="skintone" id="white_light"><div class="fill skintonewhitelight"></div></div>
+			                    <div class="choice skintone" alt="skintone" id="white"><div class="fill skintonewhite"></div></div>
+			                    <div class="choice skintone" alt="skintone" id="white_dark"><div class="fill skintonewhitedark"></div></div>
+			                	</div>            </section>
+            
+            <section class="eyescontrols expandcontrols" style="display: none; right: 0%;">
+                <h2>Eye color</h2>
+                <h3>Available DNA</h3>
+                <script type="text/javascript">$(document).ready(function(){var eye_color = 'brown_light';$('#'+eye_color).addClass('selected');});</script><div class="all_choices">
+                    <div class="choice eye selected" id="brown_light" alt="eye"><div class="eyeslightbrown fill"></div></div>
+                    <div class="choice eye" id="brown_dark" alt="eye"><div class="eyesdarkbrown fill"></div></div>
+                </div>				                
+            </section>
+            
+            <section class="haircontrols expandcontrols" style="display: none; right: 0%;">
+                <h2>Hair types</h2>
+                <h3>Available DNA</h3>
+                <h4>Color</h4>
+                <script type="text/javascript">$(document).ready(function(){var hair_color = 'brown';console.log(hair_color);$('#'+hair_color).addClass('selected');});</script><div class="all_choices">
+                    <div class="choice hair_color selected" id="brown" alt="hair_color"><div class="hair_brown fill"></div></div>
+                    <div class="choice hair_color selected" id="black" alt="hair_color"><div class="hair_black fill"></div></div>
+                </div>				                <h4>Style</h4>
+                <script type="text/javascript">$(document).ready(function(){var hair_type = 'straight';console.log(hair_type);$('#'+hair_type).addClass('selected');});</script><div class="all_choices">
+                    <div class="choice hairtype hair_type selected" id="straight" alt="hair_type"><div class="straight fill">
+                        <p class="choice_description">straight</p>
+                    </div></div>
+                    
+                    <div class="choice hairtype hair_type" id="curly" alt="hair_type"><div class="curly fill">
+                        <p class="choice_description">curly</p>
+                    </div></div>
+                    <div class="choice hairtype hair_type" id="afro" alt="hair_type"><div class="afro fill">
+                        <p class="choice_description">afro</p>
+                    </div></div>
+                </div>				            </section>
+
+            <section class="charactercontrols expandcontrols" style="display: none; right: 0%;">
+                <h2>character</h2>
+                <h3>Available DNA</h3>
+                <script type="text/javascript">$(document).ready(function(){$('.character').click(function(){var character = $(this).attr('alt');if ($('#'+character).hasClass('selected')){var character = $(this).attr('alt');console.log('has class');var character_id = '#'+character;console.log(character_id);$(character_id).removeClass('selected');return;}var character = $(this).attr('alt');$('#'+character).addClass('selected');});});</script><div class="all_choices character_choices"><h4>1</h4><div class="character_choice character" id="rustig" alt="rustig"><p>rustig</p></div><div class="character_choice character" id="teruggetrokken" alt="teruggetrokken"><p>teruggetrokken</p></div><div class="character_choice character" id="abitieus" alt="abitieus"><p>abitieus</p></div><div class="character_choice character" id="geduld" alt="geduld"><p>geduld</p></div><div class="character_choice character" id="uithoudingsvermogen" alt="uithoudingsvermogen"><p>uithoudingsvermogen</p></div><div class="character_choice character" id="volharding" alt="volharding"><p>volharding</p></div><div class="character_choice character" id="koel" alt="koel"><p>koel</p></div><div class="character_choice character" id="onbenaderbaar" alt="onbenaderbaar"><p>onbenaderbaar</p></div><div class="character_choice character" id="mensenkennis" alt="mensenkennis"><p>mensenkennis</p></div><h4>1</h4><div class="character_choice character" id="moed" alt="moed"><p>moed</p></div><div class="character_choice character" id="risico" s="" nemen'="" alt="risico"><p>risico's nemen</p></div><div class="character_choice character" id="strijdlustig" alt="strijdlustig"><p>strijdlustig</p></div><div class="character_choice character" id="naief" alt="naief"><p>naief</p></div><div class="character_choice character" id="impulsief" alt="impulsief"><p>impulsief</p></div></div>                
+            </section>
+        
+        </section>
+
+
+    
+
+<script type="text/javascript">$(document).ready(function(){var babybase = 'black_boy';console.log(babybase);$('.baby').css('background-image','url(img/baby/black_boy.jpg)');$('.baby_hair').css('background-image','url(img/baby/black_boy_hair_brown_straight.png)');$('.baby_eye').css('background-image','url(img/baby/black_boy_eyes_brown_light.png)');var new_hair_color = 'brown';var new_hair_style = 'straight';$('.choice').click(function(){if($(this).attr('alt')=='hair_color'){new_hair_color = $(this).attr('id');var stijl = new_hair_style;$('.baby_hair').css('background-image','url(img/baby/black_boy_hair_'+new_hair_color+'_straight.png)');return new_hair_color;}if($(this).attr('alt')=='hair_type'){var new_hair_style = $(this).attr('id');var kleur = new_hair_color;console.log(kleur);$('.baby_hair').css('background-image','url(img/baby/black_boy_hair_'+kleur+'_'+new_hair_style+'.png)');return new_hair_style;}if($(this).attr('alt')=='eye'){new_eye_color = $(this).attr('id');$('.baby_eye').css('background-image','url(img/baby/black_boy_eyes_'+new_eye_color+'.png)');}if($(this).attr('alt')=='skintone'){new_skintone = $(this).attr('id');console.log(new_skintone);console.log('url(img/baby/'+new_skintone+'_boy.jpg)');$('.baby').css('background-image','url(img/baby/'+new_skintone+'_boy.jpg)');}});});</script>
+
+
+
+</body></html>
