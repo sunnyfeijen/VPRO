@@ -46,11 +46,23 @@
 		    echo ".png)');";
 
 			echo "if($(this).attr('id')=='brown'){";
-				echo "$('.warning').show();";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
 				echo "$('#hair_brown_warning').show();";
 			echo "}";
 			echo "if($(this).attr('id')=='black'){";
-				echo "$('.warning').show();";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
 				echo "$('#hair_black_warning').show();";
 			echo "}";
 

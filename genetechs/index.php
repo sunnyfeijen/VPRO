@@ -119,7 +119,9 @@
             $(document).ready(function(){
 
             $('.warning a').click(function(){
-                $('.warning').hide();
+                $('.warning').animate({
+                    left:'-800px'
+                },300)
                 $('.warning p').hide();
             })
 });

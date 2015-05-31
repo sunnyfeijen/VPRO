@@ -90,10 +90,10 @@ input[type='submit']:hover{
   background-color: white;
 }
 .warning{
-  display: none;
+
   position: absolute;
   background-color: #4a736e;
-  left:0;
+  left:-800;
   padding:1%;
   bottom:0;
 }
