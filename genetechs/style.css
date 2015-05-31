@@ -90,12 +90,18 @@ input[type='submit']:hover{
   background-color: white;
 }
 .warning{
-
+  width:25%;
+  border: 1px solid black;
   position: absolute;
   background-color: white;
   left:-800;
   padding:1%;
   bottom:0;
+}
+.warning a{
+  position: absolute;
+  top: 0.1em;
+  right: 0.5em;
 }
 .warning h1{
   text-transform: uppercase;

@@ -129,9 +129,9 @@
 
             <section class='warning'>
                 <h1>warning</h1>
-                <p id='hair_brown_warning'>50% van de mensen met roos heeft een bruine haarkleur</p>
+                <p id='hair_brown_warning'>In de benodigde DNA string zit een foutenmarge van 3.4%. Deze foutmarge kan resulteren in <i>haaruitval</i></p>
                 <p id='hair_black_warning'>iel zwarte haren</p>
-                <a>close</a>
+                <a>x</a>
             </section>
         
         </section>
