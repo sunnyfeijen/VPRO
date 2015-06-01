@@ -20,20 +20,19 @@ include 'build/head.php';
 </header>
     <section class="contentwrap">
     	<div id='fotoslide1'></div>
-    	<h3>Maak een afspraak</h3>
+    	<h3>Home</h3>
         	<div class='two_paragraphs'>
                 <div class="textwrap">
                 	<div class='paragraph'>
 			  			<h1 class="titel">Welkom</h1>
-			            <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. 
-			            	Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? 
-			            	Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
+			            <p>Wij zijn Genetechs. Wij zorgen ervoor dat uw kind het DNA krijgt wat het verdient. Door onze innovatieve technieken zijn wij in staat om uw gewenste DNA te filteren. Uw kind zal precies zijn zoals u zich altijd heeft voorgesteld. Wilt u een kind met blauwe ogen? Of heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? Geen probleem, wij regelen het voor u!<br><br>
+</p>
 		            </div>
 		            <div class='paragraph'>
-			            <h1 class="titel">Over ons</h1>
-			            <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. 
-			            	Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? 
-			            	Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
+			            <h1 class="titel">Interesse?</h1>
+			            <p>Wilt u meer informatie over het proces? Kijk bij het kopje <a href="behandeling.php">behandeling</a>.<br>
+							Wanneer u interesse heeft in een behandeling, kunt u contact met ons opnemen via de <a href="contact.php">contactpagina</a>.
+						</p>
 	  				</div>
 	  			</div>
 	  	</div>

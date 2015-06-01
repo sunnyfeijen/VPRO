@@ -132,3 +132,17 @@ h1{
 .paragraph:nth-child(even){
     margin-left: 10%;
 }
+
+.left
+{
+    width: 25%;
+    float: left;
+}
+
+.right
+{
+    width: 75%;
+    float: left;
+}
+
+

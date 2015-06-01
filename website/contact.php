@@ -43,14 +43,59 @@ include 'build/head.php';
           <div class='two_paragraphs'>
                 <div class="textwrap">
                   <div class='paragraph'>
-                  <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. 
-                    Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? 
-                    Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
+                  <p>
+                      Heeft u interesse? Stuur een mailtje of maak telefonisch een afspraak.
+                      <br><br>
+                      GENETECHS
+                      <br>
+                      Van Speijkstraat 46
+                      <br>
+                      5612 GE Eindhoven
+                      <br>
+                      040 - 243 82 15
+                      <br>
+                      info@genetechs.nl
+                  </p>
                 </div>
                 <div class='paragraph'>
-                  <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. 
-                    Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? 
-                    Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
+                  <div class="left">
+                    <p>
+                      Openingstijden:
+                      <br>
+                      Maandag:
+                      <br>
+                      Dinsdag:
+                      <br>
+                      Woensdag:
+                      <br>
+                      Donderdag:
+                      <br>
+                      Vrijdag:
+                      <br>
+                      Zaterdag:
+                      <br>
+                      Zondag:
+                    </p>
+                  </div>
+
+                  <div class="right">
+                    <p>
+                      <br>
+                      gesloten.
+                      <br>
+                      10:00 - 17:00.
+                      <br>
+                      10:00 - 17:00.
+                      <br>
+                      10:00 - 17:00.
+                      <br>
+                      10:00 - 20:00.
+                      <br>
+                      10:00 - 20:00.
+                      <br>
+                      gesloten.
+                    </p>
+                  </div>
             </div>
           </div>
       </div>
