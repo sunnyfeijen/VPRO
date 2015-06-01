@@ -7,8 +7,7 @@ nav
 
 header
 {
-    height: 6.5em;
-    background-color: #585359;
+    
 }
 
 a 
@@ -23,7 +22,8 @@ a
 
 #header-nav 
 {
-    height: inherit;
+    height: 5em;
+    background-color: #585359;
     position: fixed;
     top: 0;
     display: block;
@@ -73,6 +73,10 @@ nav[role=navigation]
     max-height: 0;
 }
 
+.active{
+  border-bottom: 1px solid #4a736e;
+}
+
 nav[role=navigation].active 
 {
     max-height: 15em;
@@ -117,14 +121,14 @@ nav[role=navigation] li a
 
 .brand 
 {
+    height:5em;
     float: left;
 }
 
 .brand img
 {
-    height: 50px;
+    height: 3em;
     padding: 1em;
-    padding-top: 1.5em;
     padding-right: 0em;
 }
 
@@ -196,12 +200,12 @@ nav[role=navigation] i
   {
         background-color: transparent;
   }
-
+/*
   .brand img
   {
     padding-top: 2em;
     height: 50px;
-  }
+  }*/
     
 }
 
@@ -211,12 +215,12 @@ nav[role=navigation] i
     height: inherit;
     padding: 0% 5%;
   }
-    
+/*    
   .brand img
   {
     padding-top: 1.5em;
     height: 60px;
-  }
+  }*/
 }
 
 .container 
