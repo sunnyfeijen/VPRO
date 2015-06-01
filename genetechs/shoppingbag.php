@@ -198,11 +198,11 @@ echo "</script>";
 	          	
 	          	<p>aantal aanpassingen</p><p id='aantal_aanpassingen'></p>
                 <ul>
-                    <div id='genderchange'><li id='gender_change2'></li><a class='remove_change' alt='gender_change' src='genderchange'>x</a><p id='gender_price' class='p_price'></p></div>
-                    <div id='skinchange'><li id='skin_change2'></li><a class='remove_change' alt='skin_change' src='skinchange'>x</a><p id='skintone_price' class='p_price'></p></div>
-                    <div id='eyechange'><li id='eye_change2'></li><a class='remove_change' alt='eye_change' src='eyechange'>x</a><p id='eye_price' class='p_price'></p></div>
-                    <div id='hairchange'><li id='hair_change2'></li><a class='remove_change' alt='hair_change' src='hairchange'>x</a><p id='hair_price' class='p_price'></p></div>
-                    <div id='characterchange'><li id='character_change2'></li><a class='remove_change' alt='character_change' src='characterchange'>x</a><p id='character_price' class='p_price'></p></div>
+                    <div id='genderchange'><li id='gender_change2'></li><a class='remove_change' alt='gender_change' src='genderchange'></a><p id='gender_price' class='p_price'></p></div>
+                    <div id='skinchange'><li id='skin_change2'></li><a class='remove_change' alt='skin_change' src='skinchange'></a><p id='skintone_price' class='p_price'></p></div>
+                    <div id='eyechange'><li id='eye_change2'></li><a class='remove_change' alt='eye_change' src='eyechange'></a><p id='eye_price' class='p_price'></p></div>
+                    <div id='hairchange'><li id='hair_change2'></li><a class='remove_change' alt='hair_change' src='hairchange'></a><p id='hair_price' class='p_price'></p></div>
+                    <div id='characterchange'><li id='character_change2'></li><a class='remove_change' alt='character_change' src='characterchange'></a><p id='character_price' class='p_price'></p></div>
                 </ul>
 	        </div>
 

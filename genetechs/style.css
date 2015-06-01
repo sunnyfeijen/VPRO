@@ -263,9 +263,18 @@ input[type='submit']:hover{
 }
 
 .remove_change{
+  width: 5px;
+  background-image: url('img/close.png');
   float: left;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
   margin-left: -175px;
-  color: black;
+  /* margin-top: 5.5px; */
+  padding: 5px;
+  /* color: black; */
+  height: 5px;
+  cursor: pointer;
 }
 
 .p_price{
