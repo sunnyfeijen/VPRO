@@ -18,11 +18,11 @@ echo "<script type='text/javascript'>";
 
 
             
-            var gender_price = 1500;
-            var skintone_price = 1000;
-            var eye_price = 850;
-            var hair_price = 1250;
-            var character_price = 3450;
+            var gender_price = parseInt($('#gender_change').attr('alt'));
+            var skintone_price = parseInt($('#skin_change').attr('alt'));
+            var eye_price = parseInt($('#eye_change').attr('alt'));
+            var hair_price = parseInt($('#hair_change').attr('alt'));
+            var character_price = parseInt($('#character_change').attr('alt'));
 
             $('#gender_price').html(gender_price);
             $('#skintone_price').html(skintone_price);
