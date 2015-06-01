@@ -2,7 +2,6 @@
 	echo "<script type='text/javascript'>";
     echo "$(document).ready(function(){";
     echo "var hair_color = '".$hair_color."';";
-    echo "console.log(hair_color);";
     echo "$('#'+hair_color).addClass('selected');";
     echo "$('.hair_color').click(function(){
             $('#hair_change').show();

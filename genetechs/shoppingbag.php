@@ -151,24 +151,43 @@ echo "<script type='text/javascript'>";
 
                     echo "
                     if(change_remove == 'gender_change'){
-                    $('#gender_change').show();
+
                     gender_change = 'false';
+                    $('.gender').removeClass('selected');
+                    $('.girl').css('background-image','url(img/baby/none)');
+                    $('#boy').addClass('selected');
                     };
                     if(change_remove == 'skin_change'){
-                        $('#skin_change').show();
+
                         skin_change = 'false';
+                        $('.baby').css('background-image','url(img/baby/".$baby_base.".jpg)');
+                        $('.skintone').removeClass('selected');
+                        var skintone = '".$skintone."';
+                        $('#'+skintone).addClass('selected');
                     };
                     if(change_remove == 'eye_change'){
-                        $('#eye_change').show();
+                        
                         eye_change = 'false';
+                        $('.baby_eye').css('background-image','url(img/baby/".$eye.")');
+                        $('.eye_color').removeClass('selected');
+                        var eye_color = '".$eye_color."';
+                        $('#'+eye_color).addClass('selected');
                     };
                     if(change_remove == 'hair_change'){
-                        $('#hair_change').show();
+                        
                         hair_change = 'false';
+                        $('.baby_hair').css('background-image','url(img/baby/".$hair.")');
+                        $('.hair_color').removeClass('selected');
+                        var hair_color = '".$hair_color."';
+                        $('#'+hair_color).addClass('selected');
+                        $('.hair_type').removeClass('selected');
+                        var hair_type = '".$hair_type."';
+                        $('#'+hair_type).addClass('selected');
                     };
                     if(change_remove == 'character_change'){
-                        $('#character_change').show();
+                        
                         character_change = 'false';
+                        $('.character').removeClass('selected');
                     };";
 
                     echo "var prijs_remove = $(change).attr('alt');";
