@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.shopping_cart').click(function(){
         
         $('.expandcontrols').animate({
-            right:'0%'
+            right:'0'
         },500);
         
         $('.categories').removeClass('selected_categorie');
@@ -20,7 +20,7 @@ $(document).ready(function(){
         $(".expandcontrols").removeClass('selected_categorie');
         $(this).addClass('selected_categorie');
         $(".expandcontrols").animate({
-                right: "0%"
+                right: "0"
             });
         var url = $(this).attr('id');
         var box_to_open = url + 'controls';
@@ -28,7 +28,7 @@ $(document).ready(function(){
         $('.' + box_to_open).css('display','block');
         
                 $('.' + box_to_open).animate({
-                    right: "220px"
+                    right: "202px"
                 }, 500);
 
                 return box_to_open;

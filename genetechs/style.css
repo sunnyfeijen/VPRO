@@ -115,7 +115,7 @@ input[type='submit']:hover{
     position: absolute;
 }
 .baby{
-  width: 85%;
+  width: 90%;
     height: 100vh;
     background-repeat: no-repeat;
     
@@ -123,7 +123,7 @@ input[type='submit']:hover{
     float: left;
 }
 .baby_hair, .baby_eye, .girl{
-    width: 85%;
+    width: 90%;
     height: 100vh;
     background-repeat: no-repeat;
     position: absolute;
@@ -148,7 +148,7 @@ input[type='submit']:hover{
 }*/
 .controls{
     background-color: #585359;
-    width: 220px;
+    width: 202px;
     height: 100%;
     right:0;
     top:0;
@@ -168,10 +168,26 @@ input[type='submit']:hover{
     background-size: 50%;
     background-repeat: no-repeat;
 }
+.aantal_circel{
+   position: absolute;
+  right: 39px;
+  top: 15px;
+  border: 1px solid rgba(255,255,255,0.5);
+  width: 20px;
+  height: 20px;
+  background-color: #525c5e;
+  border-radius: 25px;
+  color: white;
+}
+#aantalaanpassingen{
+    font-size: 0.5em;
+  text-align: center;
+  margin-top: 0.6em;
+}
 .shopping_cart{
     background-image: url('img/shoppingcart_black.png');
   background-position: center;
-  background-size: 65%;
+  background-size: 55%;
   background-repeat: no-repeat;
   position: absolute;
   height: 50px;
@@ -179,8 +195,8 @@ input[type='submit']:hover{
   right: 0;
   width: 50px;
   background-color: #49736b;
-  border-bottom: 1px solid black;
-    border-left: 1px solid black;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-left: 1px solid rgba(0,0,0,0.5);
   transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
 }
@@ -219,15 +235,19 @@ input[type='submit']:hover{
   border-left: 1px solid rgba(255,255,255,0.5);
 }
 #shoppingbag{
-      background-color: rgba(255,255,255,0.5);
+      background-color: #49736b;
+  color: white;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-    z-index: 9;
-  width: 195px;
+  z-index: 9;
+  width: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
   height: 150px;
   position: absolute;
   top: 0;
-  right:0;
+  right: 0;
+
 }
 /*#shoppingbag p:last-child{
     float:right;
@@ -239,8 +259,8 @@ input[type='submit']:hover{
 }
 .shoppingbag_list{
     float: left;
-    width:170px;
-    margin-left: 25px;
+    width:100%;
+
     margin-top: 10px;
 }
 .shoppingbag_list:first-child {
@@ -249,33 +269,35 @@ input[type='submit']:hover{
 #shoppingbag p:nth-child(even){
     float:right;
 }
-.shoppingbag_list p:last-child{
+/*.shoppingbag_list p:last-child{
 
     margin-right: 25px;
-}
+}*/
 #checkout_button{
-    cursor: pointer;
-    background-color: #49736b;
-    padding-top:0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    position:absolute;
-    bottom: 25px;
-    right: 24px;
-    font-size: 0.6em;
-    border:1px solid black;
-    font-weight: 400;
-    text-transform: uppercase;
+cursor: pointer;
+  background-color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  position: absolute;
+  bottom: 24px;
+  right: 49px;
+  text-align: center;
+  font-size: 0.6em;
+  width: 75px;
+  border: 1px solid black;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 #checkout_button:hover{
     background-color: rgba(255,255,255,0.5);
 }
 #checkout_button p{
-    margin-left: 0px;
+      text-align: center;
+  float: none;
+  color: black;
 }
 .expandcontrols{
-    background-color: #79757a;
+    background-color: rgba(180,180,180,0.5);
   width: 170px;
   position: absolute;
   top: 4em;
@@ -294,11 +316,11 @@ input[type='submit']:hover{
   position: fixed;
   width: calc(170px + 1em);
   height: 4em;
-  border-left: 0.5em solid #79757a;
+  border-left: 0.5em solid rgba(180,180,180,0.0);
   margin-left: -01em;
   margin-top: -4em;
   padding-left: 0.5em;
-  background-color: #79757a;
+  background-color: rgba(180,180,180,0.5);
 }
 .expandcontrols h2{
       color: black;
@@ -331,15 +353,15 @@ input[type='submit']:hover{
     font-weight: 800;
 }
 .controls .boxes{
-    margin-top: 10em;
+    margin-top: 15em;
     overflow: hidden;
 }
 .categories{
-    ddisplay: block;
-  text-align: center;
-  border: 1px solid rgba(255,255,255,0.5);
+    display: block;
+ 
+    border-left: 5px solid rgba(255,255,255,0.5);
   
-  width: 170px;
+  width: 150px;
   color:white;
   text-transform: uppercase;
   margin-left: 25px;
@@ -355,6 +377,7 @@ input[type='submit']:hover{
     font-weight: 400;
   font-size: 0.8em;
   margin-top: 0.5em;
+  margin-left: 0.5em;
   margin-bottom: 0.5em;
 }
 .categories:hover{
@@ -390,7 +413,7 @@ input[type='submit']:hover{
   margin-left: 0px;
 }
 
-.character_choice{
+{
     width: 10.5em;
   background-color: #49736b;
   padding-top: 0.5em;
@@ -404,24 +427,25 @@ input[type='submit']:hover{
     background-color: rgba(73,115,107,0.3);
     cursor: pointer;
 }
-.hair_type_choice{
+.hair_type_choice, .character_choice{
     width: 10.5em;
-  background-color: #49736b;
+  background-color: rgba(255,255,255,0.0);
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  color: white;
   margin-top: 0.5em;
-  border:1px solid black;
+  border-left:3px solid white;
   cursor: pointer;
     height:auto;
 }
 
-.hair_type_choice p{
-    text-align: center;
+.hair_type_choice p, .character_choice p{
+    margin-left: 0.5em;
     font-size: 0.8em;
     /*text-transform: uppercase;*/
 
 }
-.hair_type_choices .selected{
+.hairtypechoice .selected, .character_choices .selected{
 /*    border: 0.15em solid black;
   width: 10.35em;
   font-weight: 600;
@@ -429,14 +453,9 @@ input[type='submit']:hover{
   padding-bottom: 0.42em;
   padding-top: 0.42em;
   background-color: #49736b;*/
-  background-color: rgba(255,255,255,0.5);
+  background-color: #4a736b !important;
 }
-.character_choice p{
-    text-align: center;
-    font-size: 0.8em;
-    /*text-transform: uppercase;*/
 
-}
 
 /*.character_choices h4{
     color:black;
@@ -487,7 +506,8 @@ input[type='submit']:hover{
 .boxes .selected{
   /*    border: 1px solid white;
   color: white;*/
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.2);
+  border-color: #49736b;
 }
 
 .choice:hover, .choicelong:hover{
@@ -561,13 +581,13 @@ i.fa.fa-mars.fa-3x{
     background-color: #e3a26b;
 }
 .skintoneolivelight{
-    background-color: green;
+    background-color: #eccfb6;
 }
 .skintoneolive{
-    background-color: darkgreen;
+    background-color: #caa082;
 }
 .skintoneolivedark{
-    background-color: brown;
+    background-color: #976a4f;
 }
 .skintoneasianwhite{
     background-color: #e0c8c2;
@@ -647,7 +667,7 @@ i.fa.fa-mars.fa-3x{
 .hairred{
     background-color: #bc5212;
 }
-p.choice_description {
+/*p.choice_description {
     color: black;
     font-weight: 300;
   padding-top: 0.2em;
@@ -655,6 +675,6 @@ p.choice_description {
   font-size: 0.7em;
   background-color: #49736b;
   text-align: center;
-}
+}*/
 .hairtype:hover p.choice_description {
     color:white;

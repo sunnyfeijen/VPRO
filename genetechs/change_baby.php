@@ -30,56 +30,24 @@
 
 	echo "if($(this).attr('alt')=='gender'){";
 	echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
-                echo "$('.warning p').hide();";
-			
-			echo "if($(this).attr('id')=='girl'){";
-				echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
+						left:'-800px'
+					},300);";
+	                echo "$('.warning p').hide();";
+				
+				echo "if($(this).attr('id')=='girl'){";
+					echo "$('.warning').animate({
+						left:'-800px'
+					},300);";
 
-                echo "$('.warning p').hide();";
-				echo "$('.warning').animate({
-					left:'0px'
-				},800);";
-				echo "$('#girl_warning').show();";
-			echo "}";
+	                echo "$('.warning p').hide();";
+					echo "$('.warning').animate({
+						left:'0px'
+					},800);";
+					echo "$('#girl_warning').show();";
+				echo "}";
 
 	echo "};";
 
-	echo "if($(this).attr('alt')=='skintone'){";
-	echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
-                echo "$('.warning p').hide();";
-			if($skintone === 'white'){
-			echo "if($(this).attr('id')=='white_light'){";
-				echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
-
-                echo "$('.warning p').hide();";
-				echo "$('.warning').animate({
-					left:'0px'
-				},800);";
-				echo "$('#skintone_white_light_warning').show();";
-			echo "}";
-			};
-			if($skintone === 'brown'){
-			echo "if($(this).attr('id')=='brown_light'){";
-				echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
-
-                echo "$('.warning p').hide();";
-				echo "$('.warning').animate({
-					left:'0px'
-				},800);";
-				echo "$('#skintone_brown_light_warning').show();";
-			echo "}";
-			};
-	echo "};";
 
 			echo "if($(this).attr('alt')=='hair_color'){";
 			echo "$('.warning').animate({
@@ -129,11 +97,6 @@
 			echo "}";
 			};
 
-			
-			
-
-			//echo "console.log(".$hair_type.");";
-			//echo "console.log(".$hair_color.");";
 			echo "return new_hair_color;";
 
 
@@ -224,9 +187,19 @@
 						    // echo "}";
 				    		echo "if($(this).attr('alt')=='skintone'){";
 				    		echo "$('.warning').animate({
-					left:'-800px'
-				},300);";
-                echo "$('.warning p').hide();";
+								left:'-800px'
+							},300);";
+			                echo "$('.warning p').hide();";
+
+			                if($skintone === 'white'){
+								echo "if($(this).attr('id')=='white_light'){";
+										echo "console.log('witte baby, super witte huidskleur');";
+										echo "$('.warning').animate({
+											left:'0px'
+										},800);";
+										echo "$('#skintone_white_light_warning').show();";
+								echo "}";
+							};
 				    		//echo "alert('10.000 euro erbij biatch');";
 						    echo "new_skintone = $(this).attr('id');";
 						    echo "console.log(new_skintone);";	

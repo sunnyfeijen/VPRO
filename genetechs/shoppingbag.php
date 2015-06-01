@@ -7,6 +7,7 @@ echo "<script type='text/javascript'>";
 
     echo "	var totale_kosten = 0;
     		var aantal_aanpassingen = 0;
+            $('#aantalaanpassingen').html(aantal_aanpassingen);
 
             
             var gender_price = 1500;
@@ -40,11 +41,14 @@ echo "<script type='text/javascript'>";
     	// echo "});";
 
         echo "$('.shopping_cart').click(function(){"; 
-        
+            echo "$('#aantalaanpassingen').html(aantal_aanpassingen);";
 	        echo "if ($('.shopping_cart').hasClass('shopping_cart_selected')){";
 
 	        echo "$(this).removeClass('shopping_cart_selected');";
-	        echo "$('#shoppingbag').slideUp();";
+            
+	        echo "$('#shoppingbag').slideUp(300);";
+
+
 	        //echo "removeShopClass();";
 	        echo "return;";
 	        echo "};";
@@ -56,7 +60,8 @@ echo "<script type='text/javascript'>";
 		            echo "$('#totale_kosten').html(totale_kosten);";
 		            
 		            echo "console.log(totale_kosten);";
-	        		echo "$('#shoppingbag').slideDown();";
+	        		echo "$('#shoppingbag').slideDown(300);";
+
 		        //echo "};";
 
         echo "});";
@@ -68,7 +73,7 @@ echo "</script>";
 
 	echo "<div class='shopping_cart' id='shoppingcart'>
 	</div>
-		<div class='aantal_circel'><p></p></div>
+		<div class='aantal_circel'><p id='aantalaanpassingen'></p></div>
           <div id='shoppingbag'>
           	<div class='shoppingbag_list'>
 	          	
