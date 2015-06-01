@@ -28,6 +28,22 @@
 	$hair_color = "new_hair_color";
 	$hair_type = "new_hair_style";
 
+	echo "if($(this).attr('alt')=='skintone'){";
+			if($skintone === 'white'){
+			echo "if($(this).attr('id')=='white_light'){";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
+				echo "$('#skintone_white_light_warning').show();";
+			echo "}";
+			};
+	echo "};";
+
 			echo "if($(this).attr('alt')=='hair_color'){";
 		    echo "new_hair_color = $(this).attr('id');";
 
@@ -45,6 +61,8 @@
 		    
 		    echo ".png)');";
 
+			if($skintone === 'black'){
+
 			echo "if($(this).attr('id')=='brown'){";
 				echo "$('.warning').animate({
 					left:'-800px'
@@ -55,6 +73,22 @@
 				},800);";
 				echo "$('#hair_brown_warning').show();";
 			echo "}";
+			};
+
+			if($skintone === 'white'){
+			echo "if($(this).attr('id')=='ginger'){";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
+				echo "$('#hair_ginger_warning').show();";
+			echo "}";
+			};
+
+			
 			
 
 			//echo "console.log(".$hair_type.");";
