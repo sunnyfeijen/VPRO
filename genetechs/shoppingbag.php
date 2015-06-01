@@ -38,6 +38,7 @@ echo "<script type='text/javascript'>";
 
             
             $('.change').click(function(){
+                $('#aantalaanpassingen').html(aantal_aanpassingen);
                 var keuze = parseInt($(this).attr('alt'));
                 var aanpassing = $(this).attr('id');
 
@@ -69,6 +70,7 @@ echo "<script type='text/javascript'>";
             });";
 
 	echo 	"$('.categories').click(function(){";
+    echo    "$('#aantalaanpassingen').html(aantal_aanpassingen);";
 	echo 	"$('.shopping_cart').removeClass('shopping_cart_selected');";
 	echo "$('#shoppingbag').slideUp();";
     echo 	"});";
@@ -81,6 +83,7 @@ echo "<script type='text/javascript'>";
     	// echo "});";
 
         echo "$('.shopping_cart').click(function(){"; 
+        echo    "$('#aantalaanpassingen').html(aantal_aanpassingen);";
             echo "$('#aantalaanpassingen').html(aantal_aanpassingen);";
 	        echo "if ($('.shopping_cart').hasClass('shopping_cart_selected')){";
 
@@ -138,6 +141,7 @@ echo "<script type='text/javascript'>";
         echo "});";
 
                 echo "$('.remove_change').click(function(){"; 
+                echo    "$('#aantalaanpassingen').html(aantal_aanpassingen);";
                     echo "var li_div = '#'+$(this).attr('src');";
                     echo "$(li_div).hide();";
                     echo "var change = '#'+$(this).attr('alt');";
