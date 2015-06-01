@@ -75,6 +75,7 @@ echo "</script>";
 	</div>
 		<div class='aantal_circel'><p id='aantalaanpassingen'></p></div>
           <div id='shoppingbag'>
+          <h2>winkelmand</h2>
           	<div class='shoppingbag_list'>
 	          	
 	          	<p>aantal aanpassingen</p><p id='aantal_aanpassingen'></p>

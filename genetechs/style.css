@@ -237,17 +237,26 @@ input[type='submit']:hover{
 #shoppingbag{
       background-color: #49736b;
   color: white;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
   z-index: 9;
   width: 300px;
   padding-left: 50px;
   padding-right: 50px;
-  height: 150px;
+  height: 175px;
   position: absolute;
   top: 0;
   right: 0;
 
+}
+
+#shoppingbag h2{
+  text-transform: uppercase;
+  font-size: 1em;
+  padding-bottom: 0.5em;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
 }
 /*#shoppingbag p:last-child{
     float:right;
