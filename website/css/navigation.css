@@ -80,6 +80,7 @@ nav[role=navigation]
 nav[role=navigation].active 
 {
     max-height: 15em;
+    border-bottom: 1px solid #4a736e;
 }
 
 nav[role=navigation] ul 
@@ -212,8 +213,8 @@ nav[role=navigation] i
 @media screen and (min-width: 900px){
   .wrap
   {
-    height: inherit;
-    padding: 0% 5%;
+    width:1024px;
+    margin: auto;
   }
 /*    
   .brand img
