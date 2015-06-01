@@ -20,18 +20,25 @@ include 'build/head.php';
 </header>
     <section class="contentwrap">
       <div id='fotoslide2'></div>
-      <h3>Over ons</h3>
+      <h3></h3>
           <div class='two_paragraphs'>
                 <div class="textwrap">
                   <div class='paragraph'>
-                  <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. 
-                    Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? 
-                    Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
+                    <h3>Over ons</h3>
+                  <p>
+                    De menselijke evolutie is gestopt. De overlevingskans van een mens wordt tegenwoordig niet meer bepaald door je genen. Iedereen heeft gelijke kansen om te overleven. Zo zijn sterke spieren niet meer nodig, aangezien er niet meer gejaagd hoeft te worden. Zelfs intelligentie is niet meer nodig, aangezien machines in de toekomst ons werk over zullen nemen.<br>
+                    Wij zijn geïnspireerd geraakt door dit probleem, en zochten naar een oplossing. In 2009 hebben we onderzoek gestart naar het menselijk gen en hebben ontdekt hoe we delen uit een gen kunnen combineren met het gen van anderen. De techniek die we ontwikkeld hebben heet de pluma-transira technologie.
+                  </p>
                 </div>
                 <div class='paragraph'>
-                  <p>Wij zijn Genetechs. Wanneer u graag een kind wilt, en zeker wilt zijn van bepaalde kenmerken, kunt u bij ons terecht. 
-                    Wij filteren het DNA van uw kind zoals u dat wilt. Heeft uw partner die mooie blonde krullen die uw kind ook zou moeten hebben? 
-                    Geen probleem, wij regelen het voor je!<br><br>Heeft u interesse?<br>Kijk dan bij onze producten en neem contact met ons op.</p>
+                  <p>
+                    Na vele successen hebben we in 2013 een bedrijf gestart: Genetechs.
+                    In het jaar 2014 hebben we maar liefst ruim 1200 klanten verblijd met hun samengestelde baby.
+                    We hebben de perfecte oplossing om de mensheid toch verder te laten evolueren en zo ook te perfectioneren. <br>
+                    Dit bedrijf bestaat voornamelijk uit de slimste studenten die genetica studeren aan de Radbout Universiteit in Nijmegen.
+                    Onze visie is om de mensheid zo te ontwikkelen dat iedereen perfect is.
+                    Onze missie is perfectie.
+                  </p>
             </div>
           </div>
       </div>
