@@ -13,14 +13,14 @@ include 'build/head.php';
     <script type="text/javascript">
       $( document ).ready(function() {
         $('nav a').removeClass('selected');
-        $('#over').addClass('selected');
+        $('#behandeling').addClass('selected');
     });
     </script>
 
 </header>
     <section class="contentwrap">
-      <div id='fotoslide2'></div>
-      <h3>Over ons</h3>
+      <div id='fotoslide3'></div>
+      <h3>Behandeling</h3>
           <div class='two_paragraphs'>
                 <div class="textwrap">
                   <div class='paragraph'>

@@ -28,4 +28,6 @@
   <!-- lettertype -->
   <link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
 
+  <!-- google maps -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>

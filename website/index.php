@@ -9,9 +9,17 @@ include 'build/head.php';
 	<?php
   		include 'build/navigatie.php';
   	?>
+
+  	<script type="text/javascript">
+  		$( document ).ready(function() {
+  		 	$('nav a').removeClass('selected');
+		    $('#home').addClass('selected');
+		});
+  	</script>
+
 </header>
     <section class="contentwrap">
-    	<div id='fotoslide'></div>
+    	<div id='fotoslide1'></div>
     	<h3>Maak een afspraak</h3>
         	<div class='two_paragraphs'>
                 <div class="textwrap">

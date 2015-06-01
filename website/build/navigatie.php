@@ -13,10 +13,10 @@
     	<!-- Menu Items -->
     		<nav id="menu" role="navigation">
 				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="over.php">Over Ons</a></li>
-					<li><a href="producten.php">Producten</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li id='home'><a href="index.php">Home</a></li>
+					<li id='over'><a href="over.php">Over Ons</a></li>
+					<li id='behandeling'><a href="behandeling.php">Behandeling</a></li>
+					<li id='contact'><a href="contact.php">Contact</a></li>
                     <li style="border: none;"><i class="fa fa-angle-up fa-3x" id="close"></i></li>
 				</ul>
 			</nav>

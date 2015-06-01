@@ -20,6 +20,11 @@ a
     -ms-transition: all 0.3s ease;
 }
 
+.selected
+{
+    border-bottom: 5px solid #49736b !important;
+}
+
 #header-nav 
 {
     height: 5em;
