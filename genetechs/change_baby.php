@@ -28,6 +28,22 @@
 	$hair_color = "new_hair_color";
 	$hair_type = "new_hair_style";
 
+	echo "if($(this).attr('alt')=='gender'){";
+			
+			echo "if($(this).attr('id')=='girl'){";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
+				echo "$('#girl_warning').show();";
+			echo "}";
+
+	echo "};";
+
 	echo "if($(this).attr('alt')=='skintone'){";
 			if($skintone === 'white'){
 			echo "if($(this).attr('id')=='white_light'){";
@@ -40,6 +56,19 @@
 					left:'0px'
 				},800);";
 				echo "$('#skintone_white_light_warning').show();";
+			echo "}";
+			};
+			if($skintone === 'brown'){
+			echo "if($(this).attr('id')=='brown_light'){";
+				echo "$('.warning').animate({
+					left:'-800px'
+				},300);";
+
+                echo "$('.warning p').hide();";
+				echo "$('.warning').animate({
+					left:'0px'
+				},800);";
+				echo "$('#skintone_brown_light_warning').show();";
 			echo "}";
 			};
 	echo "};";
@@ -114,6 +143,7 @@
 		    	echo "+new_hair_style+";
 		    	echo "'.png)');";
 
+				if($skintone === 'arabic'){
 				echo "if($(this).attr('id')=='afro'){";
 				echo "$('.warning').animate({
 					left:'-800px'
@@ -124,6 +154,7 @@
 				},800);";
 				echo "$('#hair_afro_warning').show();";
 			echo "}";
+		};
 
 				echo "return new_hair_style;";
 				

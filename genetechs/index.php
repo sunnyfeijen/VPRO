@@ -129,7 +129,9 @@
 
             <section class='warning'>
                 <h1>warning</h1>
-                <p id='skintone_white_light_warning'>Gebruik van deze DNA string resulteerd in 43% meer kans op <i>huidkanker</i>.</p>
+                <!-- <p id='gender_warning'>Gebruik van deze DNA string resulteerd in 33% meer kans op <i>huidkanker</i>.</p> -->
+                <p id='skintone_white_light_warning'>Gebruik van deze DNA string resulteerd in 33% meer kans op <i>huidkanker</i>.</p>
+                <p id='skintone_brown_light_warning'>Gebruik van deze DNA string resulteerd in 12% meer kans op <i>huidkanker</i>.</p>
 
                 <p id='hair_brown_warning'>Het DNA uit deze DNA string is zwak. Gebruik van deze DNA string kan resulteren in <i>snelle vergrijzing</i>.</p>
                 <p id='hair_ginger_warning'>Het DNA uit deze DNA string is zwak. Gebruik van deze DNA string kan resulteren in <i>snelle vergrijzing</i>.</p>

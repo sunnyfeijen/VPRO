@@ -201,8 +201,8 @@ input[type='submit']:hover{
 .shopping_cart:hover{
     cursor: pointer;
     background-color: rgba(73,115,107,0.3);
-    
-    /*background-image: url('img/shoppingcart_black.png');*/
+    border-color: white;
+    background-image: url('img/shoppingcart.png');
 }
 .shopping_cart:hover #shoppingcart_square{
     background-color: #757175;
@@ -337,10 +337,10 @@ input[type='submit']:hover{
 .categories{
     ddisplay: block;
   text-align: center;
-  border: 1px solid black;
-  height: 50px;
+  border: 1px solid rgba(255,255,255,0.5);
+  
   width: 170px;
-  background-color: #49736b;
+  color:white;
   text-transform: uppercase;
   margin-left: 25px;
   margin-top: 10px;
@@ -354,7 +354,8 @@ input[type='submit']:hover{
 .categories p{
     font-weight: 400;
   font-size: 0.8em;
-  margin-top: 20px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .categories:hover{
     /*border: 1px solid #fff;
