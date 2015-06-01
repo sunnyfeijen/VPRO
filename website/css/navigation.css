@@ -48,10 +48,11 @@ a
 
 a.menu-link 
 {
+    color: #fff;
     float: right;
     display: block;
     padding: 0.7em;
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
 nav[role=navigation] 
@@ -74,7 +75,7 @@ nav[role=navigation]
 }
 
 .active{
-  border-bottom: 1px solid #4a736e;
+    border-bottom: 1px solid #4a736e;
 }
 
 nav[role=navigation].active 
@@ -122,7 +123,7 @@ nav[role=navigation] li a
 
 .brand 
 {
-    height:5em;
+    height: 5em;
     float: left;
 }
 
@@ -167,7 +168,6 @@ nav[role=navigation] i
   .js nav[role=navigation] 
   {
         max-height: none;
-        padding-top: 2.8em;
   }
     
   nav[role=navigation] ul 
@@ -183,13 +183,25 @@ nav[role=navigation] i
         display: inline-block;
         margin: 0 0.25em;
         width: auto;
-        border: 1px solid #000;
+        border: none;
+        border-bottom: 1px solid #585359;
+        background-color: transparent;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+  }
+    
+  nav[role=navigation] li:hover{
+        border-bottom: 5px solid #49736b;
+        background-color: transparent;
   }
     
   nav[role=navigation] li a 
   {
+        color: #fff;
         border: 0;
-        padding: 0.5em 1em;
+        padding: 2.3em 0.8em 2.1em 0.8em;
   }
     
   nav[role=navigation] i
@@ -201,12 +213,6 @@ nav[role=navigation] i
   {
         background-color: transparent;
   }
-/*
-  .brand img
-  {
-    padding-top: 2em;
-    height: 50px;
-  }*/
     
 }
 
@@ -216,12 +222,12 @@ nav[role=navigation] i
     width:1024px;
     margin: auto;
   }
-/*    
+  
   .brand img
   {
-    padding-top: 1.5em;
-    height: 60px;
-  }*/
+    padding-top: 0.8em;
+    height: 3.5em;
+  }
 }
 
 .container 
