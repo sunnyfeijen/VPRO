@@ -136,7 +136,10 @@
                 <p id='hair_brown_warning'>Het DNA uit deze DNA string is zwak. Gebruik van deze DNA string kan resulteren in <i>snelle vergrijzing</i>.</p>
                 <p id='hair_ginger_warning'>Het DNA uit deze DNA string is zwak. Gebruik van deze DNA string kan resulteren in <i>snelle vergrijzing</i>.</p>
                 <!-- <p id='hair_black_warning'>iel zwarte haren</p> -->
+                <p id='hair_curly_warning'>In de benodigde DNA string zit een foutenmarge van 3.4%. Deze foutmarge kan resulteren in <i>haaruitval</i>.</p>
                 <p id='hair_afro_warning'>In de benodigde DNA string zit een foutenmarge van 3.4%. Deze foutmarge kan resulteren in <i>haaruitval</i>.</p>
+
+                <p id='black_eye_warning'>In de benodigde DNA string zit een foutenmarge van 1.6%. Deze foutmarge kan resulteren in <i>slechtziendheid</i>.</p>
                 <a>x</a>
             </section>
         
