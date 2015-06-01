@@ -52,6 +52,9 @@
     }
     if($skintone == 'black'){
     		echo "<div class='all_choices'>
+                    <div class='choice eye'  id='blue' alt='eye'><div class='eyesblue fill'></div></div>
+                    <div class='choice eye'  id='gray' alt='eye'><div class='eyesgray fill'></div></div>
+                    <div class='choice eye'  id='green' alt='eye'><div class='eyesgreen fill'></div></div>
                     <div class='choice eye'  id='brown_light' alt='eye'><div class='eyeslightbrown fill'></div></div>
                     <div class='choice eye'  id='brown_dark' alt='eye'><div class='eyesdarkbrown fill'></div></div>
                 </div>";

@@ -29,6 +29,9 @@
     }
     if($skintone == 'olive'){
           echo "<div class='all_choices'>
+                    <div class='choice hair_color' id='blond_light' alt='hair_color'><div class='hair_blond_light fill'></div></div>
+                    <div class='choice hair_color' id='blond_dark' alt='hair_color'><div class='hair_blond_dark fill'></div></div>
+                    <div class='choice hair_color' id='ginger' alt='hair_color'><div class='hair_ginger fill'></div></div>
                     <div class='choice hair_color' id='brown' alt='hair_color'><div class='hair_brown fill'></div></div>
                     <div class='choice hair_color' id='black' alt='hair_color'><div class='hair_black fill'></div></div>
                 </div>";
