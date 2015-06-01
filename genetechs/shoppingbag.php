@@ -93,26 +93,31 @@ echo "<script type='text/javascript'>";
 		            echo "$('#aantal_aanpassingen').html(aantal_aanpassingen);";
                     
                         echo "if(gender_change == 'geslacht'){";
+                        echo "$('#gender_change').hide();";
                         echo "$('#gender_change2').html(gender_change);";
                         echo "$('#genderchange').show();";
                         echo "};";
 
                         echo "if(skin_change == 'huidskleur'){";
+                        echo "$('#skin_change').hide();";
                         echo "$('#skin_change2').html(skin_change);";
                         echo "$('#skinchange').show();";
                         echo "};";
 
                         echo "if(eye_change == 'oogkleur'){";
+                        echo "$('#eye_change').hide();";
                         echo "$('#eye_change2').html(eye_change);";
                         echo "$('#eyechange').show();";
                         echo "};";
 
                         echo "if(hair_change == 'haar'){";
+                        echo "$('#hair_change').hide();";
                         echo "$('#hair_change2').html(hair_change);";
                         echo "$('#hairchange').show();";
                         echo "};";
 
                         echo "if(character_change == 'karakter'){";
+                        echo "$('#character_change').hide();";
                         echo "$('#character_change2').html(character_change);";
                         echo "$('#characterchange').show();";
                         echo "};";
@@ -136,18 +141,23 @@ echo "<script type='text/javascript'>";
 
                     echo "
                     if(change_remove == 'gender_change'){
+                    $('#gender_change').show();
                     gender_change = 'false';
                     };
                     if(change_remove == 'skin_change'){
+                        $('#skin_change').show();
                         skin_change = 'false';
                     };
                     if(change_remove == 'eye_change'){
+                        $('#eye_change').show();
                         eye_change = 'false';
                     };
                     if(change_remove == 'hair_change'){
+                        $('#hair_change').show();
                         hair_change = 'false';
                     };
                     if(change_remove == 'character_change'){
+                        $('#character_change').show();
                         character_change = 'false';
                     };";
 
