@@ -243,11 +243,34 @@ input[type='submit']:hover{
   width: 300px;
   padding-left: 50px;
   padding-right: 50px;
-  height: 175px;
+  padding-bottom: 75px;
+  height: auto;
   position: absolute;
   top: 0;
   right: 0;
 
+}
+
+#shoppingbag ul{
+  margin-top: 25px;
+  list-style-type: none;
+  font-size: 0.8em;
+}
+
+#shoppingbag li{
+  float: left;
+  width: 100%;
+}
+
+.remove_change{
+  float: left;
+  margin-left: -175px;
+  color: black;
+}
+
+.p_price{
+    font-size: 1em !important;
+  margin-left: -29px;
 }
 
 #shoppingbag h2{
