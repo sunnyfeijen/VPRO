@@ -13,6 +13,10 @@
             echo "return;";
             echo "}";
 
+            echo "$('.character').click(function(){
+            $('#character_change').show();
+            });";
+
 
                 //echo "else{"
                 echo "var character = $(this).attr('alt');";

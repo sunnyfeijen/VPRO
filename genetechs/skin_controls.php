@@ -1,8 +1,13 @@
 <?php
 		echo "<script type='text/javascript'>";
 	    echo "$(document).ready(function(){";
+
 	    echo "var skintone = '".$skintone."';";
 	    echo "$('#'+skintone).addClass('selected');";
+	    echo "$('.skintone').click(function(){
+	    	$('#skin_change').show();
+	    });";
+
 	    echo "});";
 	    echo "</script>";
 		if($skintone == 'white'){

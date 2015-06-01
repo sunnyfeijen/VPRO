@@ -1,8 +1,12 @@
 <?php
     echo "<script type='text/javascript'>";
     echo "$(document).ready(function(){";
+
     echo "var eye_color = '".$eye_color."';";
     echo "$('#'+eye_color).addClass('selected');";
+    echo "$('.eye').click(function(){
+            $('#eye_change').show();
+        });";
     echo "});";
     echo "</script>";
 	if($skintone == 'white'){

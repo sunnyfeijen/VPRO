@@ -10,6 +10,12 @@ echo "<script type='text/javascript'>";
     echo "$('#hairchange').hide();";
     echo "$('#characterchange').hide();";
 
+    echo "$('#gender_change').hide();";
+    echo "$('#skin_change').hide();";
+    echo "$('#eye_change').hide();";
+    echo "$('#hair_change').hide();";
+    echo "$('#character_change').hide();";
+
 
     echo "	var totale_kosten = 0;
     		var aantal_aanpassingen = 0;

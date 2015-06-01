@@ -62,6 +62,7 @@
                 <div class='change' alt='2750' id='gender_change'></div>
                 </div>
                 <?php
+
                     include ('gendercontrols.php');
                 ?>
                 
@@ -150,6 +151,7 @@
 </html>
 <?php
             include('change_baby.php');
+
         ?>
 
 

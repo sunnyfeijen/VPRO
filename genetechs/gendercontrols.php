@@ -3,7 +3,15 @@
 $foto_girl = $_POST['skintone']. "_girl.png";
 echo "<script type='text/javascript'>";
     echo "$(document).ready(function(){";
+        echo "$('#gender_change').hide();";
+
+
+
         echo "$('#girl').click(function(){";
+            echo "$('#gender_change').hide();";
+            echo "if($(this).attr('id') != '".$gender."'){";
+                echo "$('#gender_change').show();";
+            echo "};";
             echo "if($('#girl').hasClass('is_girl')){";
             echo "return;";
             echo "};";
@@ -16,6 +24,10 @@ echo "<script type='text/javascript'>";
                
         echo "});";
         echo "$('#boy').click(function(){";
+            echo "$('#gender_change').hide();";
+            echo "if($(this).attr('id') != '".$gender."'){";
+                echo "$('#gender_change').show();";
+            echo "};";
             echo "if($('#girl').hasClass('is_girl')){";
             echo "$('.girl').css('background-image','url(img/baby/none)');";
             echo "$('#girl').removeClass('is_girl');";

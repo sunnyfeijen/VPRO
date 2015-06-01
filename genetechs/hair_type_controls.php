@@ -4,6 +4,9 @@
     echo "var hair_type = '".$hair_type."';";
     echo "console.log(hair_type);";
     echo "$('#'+hair_type).addClass('selected');";
+    echo "$('.hair_type').click(function(){
+            $('#hair_change').show();
+        });";
     echo "});";
     echo "</script>";
 	if($skintone == 'white'){
