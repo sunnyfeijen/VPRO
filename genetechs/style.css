@@ -132,11 +132,15 @@ input[type='submit']:hover{
   border-color: 1px solid rgba(255,255,255,0.5);
   border-left: 7px solid #4a736b;
   opacity: 0;
+  text-decoration: none;
 }
-#continue:hover{
+#afsluiten{
+  opacity: 1;
+}
+#continue:hover, #afsluiten:hover{
   background-color: rgba(73,115,107,0.3);
 }
-#continue:active{
+#continue:active, #afsluiten:active{
   background-color: rgba(73,115,107,0.5);
 }
 

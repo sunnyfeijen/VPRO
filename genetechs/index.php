@@ -168,7 +168,7 @@
                 <div id='checkout_btw' class='checkout_totaal'><p>Btw (21%)</p><p id='checkout_btw_kosten'></p></div>
                 <div id='checkout_totaal' class='checkout_totaal'><p>Totaal</p><p id='checkout_totale_kosten'></p></div>
             </section>
-            <a id='afsluiten'>Quit</a>
+            <a href='http://www.genetechs.nl/applicatie/index.php' id='afsluiten'>Quit</a>
         </section>
         </section>
 
