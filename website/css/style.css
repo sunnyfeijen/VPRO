@@ -128,6 +128,7 @@ h1{
 .paragraph{
     width:45%;
     float:left;
+    margin-bottom: 2em;
 }
 .paragraph:nth-child(even){
     margin-left: 10%;

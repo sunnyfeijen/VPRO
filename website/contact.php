@@ -39,12 +39,13 @@ include 'build/head.php';
       <div id='fotoslide4'>
         <section id="map-canvas"></section>
       </div>
-      <h3>Contact</h3>
+      <h3></h3>
           <div class='two_paragraphs'>
                 <div class="textwrap">
                   <div class='paragraph'>
+                    <h1>CONTACT</h1>
                   <p>
-                      Heeft u interesse? Stuur een mailtje of maak telefonisch een afspraak.
+                      Wanneer u interesse heeft in onze diensten kunt u onderstaande gegevens raadplegen. We hopen snel met u in contact te komen.
                       <br><br>
                       GENETECHS
                       <br>
@@ -59,9 +60,8 @@ include 'build/head.php';
                 </div>
                 <div class='paragraph'>
                   <div class="left">
+                    <h1>OPENINGSTIJDEN</h1>
                     <p>
-                      Openingstijden:
-                      <br>
                       Maandag:
                       <br>
                       Dinsdag:
@@ -80,7 +80,7 @@ include 'build/head.php';
 
                   <div class="right">
                     <p>
-                      <br>
+                      <br><br>
                       gesloten.
                       <br>
                       10:00 - 17:00.

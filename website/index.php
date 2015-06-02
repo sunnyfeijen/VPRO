@@ -20,7 +20,7 @@ include 'build/head.php';
 </header>
     <section class="contentwrap">
     	<div id='fotoslide1'></div>
-    	<h3>Home</h3>
+    	<h3></h3>
         	<div class='two_paragraphs'>
                 <div class="textwrap">
                 	<div class='paragraph'>
