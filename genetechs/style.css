@@ -90,15 +90,104 @@ input[type='submit']:hover{
   background-color: white;
 }
 
+#dna_scan{
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
+#download_dna{
+  cursor: pointer;
+    text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  width: 20%;
+  margin-left: 40%;
+  padding: 1em;
+  color: white;
+  position: absolute;
+  margin-top: 40vh;
+  border-left: 10px solid #4a736b;
+  border-color: 1px solid rgba(255,255,255,0.5);
+  background-color: lightgrey;
+}
+#download_dna:hover{
+  background-color: rgba(73,115,107,0.3);
+  /*border-color: #585359;*/
+}
+#download_dna:active{
+  background-color: rgba(73,115,107,0.5);
+}
+#continue{
+    cursor: pointer;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  width: 10%;
+  right: 5%;
+  padding: 1em;
+  bottom: 3em;
+  color: white;
+  background-color: lightgrey;
+  border-color: 1px solid rgba(255,255,255,0.5);
+  border-left: 7px solid #4a736b;
+  opacity: 0;
+}
+#continue:hover{
+  background-color: rgba(73,115,107,0.3);
+}
+#continue:active{
+  background-color: rgba(73,115,107,0.5);
+}
+
 #background_dna{
   background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+#dna_available{
+  opacity: 0;
+  background-color: white;
+  text-transform: uppercase;
 }
 #background_dna h1{
   text-align: center;
-  width:100%;
+  margin: auto;
+  display: block;
+  width: 55%;
+  border-left: 15px solid #4a736b;
   font-size: 3em;
-  color:white;
+  font-weight: 600;
+  margin-top: 1em;
+  color: black;
 }
+.loading{
+  width:75px;
+  height:auto;
+  margin-left:calc(12% - 35px);
+  margin-right:calc(13% - 40px);
+  float: left;
+  margin-top: 40vh;
+  display: block;
+}
+table{
+  color: #585359;
+}
+th{
+  text-align: left;
+  font-weight: 800;
+}
+td{
+  text-transform: none;
+}
+.tabellen{
+  width:17.5%;
+  margin-left:7.5%;
+  float:left;
+  opacity: 0;
+  margin-top: -150;
+}
+
 .dna_scan, #dna_available, .dna_scan_stripes{
   width:100%;
   float: left;
@@ -110,30 +199,29 @@ input[type='submit']:hover{
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 #dna_scan_yellow{
   /*background-image: url('img/dna.jpg');*/
-  background-color:yellow;
+  background-color:#030917;
   background-image: url('img/dna_yellow.jpg');
 }
 #dna_scan_orange{
-  background-color: orange;
+  background-color: #030917;
   background-image: url('img/dna_orange.jpg');
   opacity: 0;
 }
 #dna_scan_blue_dark{
   /*background-image: url('img/dna.jpg');*/
-  background-color:darkblue;
+  background-color:#030917;
   background-image: url('img/dna_blue_dark.jpg');
   opacity: 0;
 }
 #dna_scan_blue_light{
-  background-color: lightblue;
+  background-color: #030917;
   background-image: url('img/dna_blue_light.jpg');
   opacity: 0;
 }
-#dna_available{
-  opacity: 0;
-}
+
 .dna_scan_stripes{
   border-top: 10px ridge;
 
@@ -141,30 +229,28 @@ input[type='submit']:hover{
 #dna_scan_stripe_yellow{
   
   border-color: #edfa90;
-  background-color: black;
+  background-color: #030917;
 }
 #dna_scan_stripe_orange{
   background-image: url('img/dna_yellow.jpg');
   border-color: #fa8641;
-  background-color: yellow;
+  background-color: #030917;
   opacity:0;
 }
 #dna_scan_stripe_blue_dark{
   background-image: url('img/dna_orange.jpg');
   border-color: #0e49bb;
-  background-color: orange;
+  background-color: #030917;
   opacity:0;
 }
 #dna_scan_stripe_blue_light{
   background-image: url('img/dna_blue_dark.jpg');
   border-color: #27e0fc;
-  background-color: darkblue;
+  background-color: #030917;
   opacity:0;
 }
 
-#continue{
-  cursor: pointer;
-}
+
 .warning{
   width:25%;
   border: 1px solid black;
@@ -504,19 +590,7 @@ cursor: pointer;
     background-color: rgba(73,115,107,0.3);
     cursor: pointer;
 }
-#continue{
-    background-color: #49736b;
-    border: none;
-    margin: 0 auto;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 500;
-    padding: 1em 6.8em;
-    display: block;
-    bottom: 1em;
-    right: 2em;
-    position: fixed;
-}
+
 .choice{
     height: 4.8em;
   width: 46%;
