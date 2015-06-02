@@ -36,7 +36,6 @@ include 'build/head.php';
 		            	<div class="video">
 							<iframe width="100%" src="https://www.youtube.com/embed/V32NB28QAtE?rel=0" frameborder="0" allowfullscreen></iframe>
 						</div>
-			            
 	  				</div>
 	  				
 	  			</div>
