@@ -89,6 +89,82 @@ input[type="submit"]{
 input[type='submit']:hover{
   background-color: white;
 }
+
+#background_dna{
+  background-color: black;
+}
+#background_dna h1{
+  text-align: center;
+  width:100%;
+  font-size: 3em;
+  color:white;
+}
+.dna_scan, #dna_available, .dna_scan_stripes{
+  width:100%;
+  float: left;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  position: absolute;
+  background-position: left bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#dna_scan_yellow{
+  /*background-image: url('img/dna.jpg');*/
+  background-color:yellow;
+  background-image: url('img/dna_yellow.jpg');
+}
+#dna_scan_orange{
+  background-color: orange;
+  background-image: url('img/dna_orange.jpg');
+  opacity: 0;
+}
+#dna_scan_blue_dark{
+  /*background-image: url('img/dna.jpg');*/
+  background-color:darkblue;
+  background-image: url('img/dna_blue_dark.jpg');
+  opacity: 0;
+}
+#dna_scan_blue_light{
+  background-color: lightblue;
+  background-image: url('img/dna_blue_light.jpg');
+  opacity: 0;
+}
+#dna_available{
+  opacity: 0;
+}
+.dna_scan_stripes{
+  border-top: 10px ridge;
+
+}
+#dna_scan_stripe_yellow{
+  
+  border-color: #edfa90;
+  background-color: black;
+}
+#dna_scan_stripe_orange{
+  background-image: url('img/dna_yellow.jpg');
+  border-color: #fa8641;
+  background-color: yellow;
+  opacity:0;
+}
+#dna_scan_stripe_blue_dark{
+  background-image: url('img/dna_orange.jpg');
+  border-color: #0e49bb;
+  background-color: orange;
+  opacity:0;
+}
+#dna_scan_stripe_blue_light{
+  background-image: url('img/dna_blue_dark.jpg');
+  border-color: #27e0fc;
+  background-color: darkblue;
+  opacity:0;
+}
+
+#continue{
+  cursor: pointer;
+}
 .warning{
   width:25%;
   border: 1px solid black;

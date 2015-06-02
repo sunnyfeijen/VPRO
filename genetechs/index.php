@@ -1,6 +1,7 @@
 <?php
     include('calculate_baby.php');
     include('warnings.php');
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,10 +23,14 @@
         <script type="text/javascript" src="scripts/categories2.js"></script>
         <script type="text/javascript" src="change_controls.js"></script>
         
+        <?php
+            include('dna_scan.php');
+        ?>
        
         
     </head>
     <body>
+
         <section class="container">
 
             <section class="baby">
