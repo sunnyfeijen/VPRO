@@ -2,7 +2,7 @@
 	echo "<script type='text/javascript'>";
     echo "$(document).ready(function(){";
 
-        echo "$('.character').click(function(){";  
+        echo "$('.character').on( 'click', function() {";  
         echo "var character = $(this).attr('alt');";
             echo "if ($('#'+character).hasClass('selected')){"; 
             echo "var character = $(this).attr('alt');";
