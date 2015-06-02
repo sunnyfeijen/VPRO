@@ -154,7 +154,7 @@ input[type='submit']:hover{
   text-align: center;
   margin: auto;
   display: block;
-  width: 55%;
+  width: 45%;
   border-left: 15px solid #4a736b;
   font-size: 3em;
   font-weight: 600;
@@ -334,12 +334,12 @@ td{
    position: absolute;
   right: 39px;
   top: 15px;
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(0,0,0,0.5);
   width: 20px;
   height: 20px;
   background-color: #525c5e;
   border-radius: 25px;
-  color: white;
+  color: black;
 }
 #aantalaanpassingen{
     font-size: 0.5em;
@@ -441,7 +441,7 @@ td{
 
 .p_price{
     font-size: 1em !important;
-  margin-left: -29px;
+  margin-left: -40px;
 }
 
 #shoppingbag h2{
@@ -498,6 +498,86 @@ cursor: pointer;
       text-align: center;
   float: none;
   color: black;
+}
+#checkout_screen{
+  width:100%;
+  height: 100vh;
+  background-color: white;
+  z-index: 9;
+  position: absolute;
+/*    width: 712%;
+  height: 100vh;
+  background-color: white;
+  z-index: 999;
+  left: -1236px;
+  position: absolute !important;*/
+}
+#factuur{
+  width:50%;
+  margin-left: 25%;
+  margin-top: 3em;
+}
+#factuur_logo{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('img/logo_genetechs-01.png');
+  background-size: contain;
+  background-position: left top;
+}
+#checkout_parent{
+  margin-bottom: 8em;
+  text-align: right;
+}
+#checkout_parent h3{
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+.locus_description{
+    font-style: italic;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+.checkout_div, .checkout_div_bold{
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+.checkout_div p, .checkout_div_bold p{
+  width:50%;
+  float:left;
+}
+.checkout_div p:nth-child(2), .checkout_div_bold p:nth-child(2){
+  text-align: right;
+}
+.checkout_div_bold{
+  font-weight: 800;
+  padding-bottom: 2em;
+  border-bottom: 1px solid black;
+}
+#checkout_subtotaal{
+    margin-top: 1em;
+  padding-top: 2em;
+  border-top: 1px solid black;
+}
+.checkout_totaal{
+  text-align: right;
+  overflow: hidden;
+  margin-left: 0;
+}
+.checkout_totaal p{
+  width:20%;
+  float:left;
+  margin-top: 0.5em;
+  text-align: right;
+  margin-left: 60%;
+}
+.checkout_totaal p:last-child{
+  margin-left: 0 !important;
+}
+#checkout_totaal{
+  font-weight: 800;
+  margin-top: 1em;
 }
 .expandcontrols{
     background-color: rgba(180,180,180,0.5);
@@ -556,7 +636,7 @@ cursor: pointer;
     font-weight: 800;
 }
 .controls .boxes{
-    margin-top: 15em;
+    margin-top: 40vh;
     overflow: hidden;
 }
 .categories{

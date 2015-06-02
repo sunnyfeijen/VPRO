@@ -1,8 +1,11 @@
 <?php
+
+
 //echo "<script type='text/javascript' src='shopping_cart.js'></script>";
 echo "<script type='text/javascript'>";
 
     echo "$(document).ready(function(){";
+    echo "$('#checkout_screen').hide();";
     echo "$('#shoppingbag').hide();";
     echo "$('#genderchange').hide();";
     echo "$('#skinchange').hide();";
@@ -16,10 +19,67 @@ echo "<script type='text/javascript'>";
     echo "$('#hair_change').hide();";
     echo "$('#character_change').hide();";
 
+    echo "$('#checkout_gender_change').hide();";
+    echo "$('#checkout_skin_change').hide();";
+    echo "$('#checkout_eye_change').hide();";
+    echo "$('#checkout_hair_change').hide();";
+    echo "$('#checkout_character_change').hide();";
+
+        echo "$('#checkout_button').on('click', function(){
+
+                                    console.log('kliktjekaud');
+                                    $('#checkout_screen').show();
+
+                                    var btw_bedrag = totale_kosten*0.21;
+                                    var totaalbedrag = totale_kosten+btw_bedrag;
+
+                                    $('#checkout_parent1_name').html('".$parent1_name."');
+                                    $('#checkout_parent2_name').html('".$parent2_name."');
+                                    $('#checkout_parent3_name').html('".$parent3_name."');
+                                    $('#checkout_parent4_name').html('".$parent4_name."');
+
+                                    $('#checkout_subtotale_kosten').html('\u20ac '+totale_kosten);
+                                    $('#checkout_btw_kosten').html('\u20ac '+totale_kosten*0.21);
+                                    $('#checkout_totale_kosten').html('\u20ac '+totaalbedrag);
+
+                                    
+
+                                    $('#checkout_gender_price').html('\u20ac '+gender_price);
+                                    $('#checkout_skintone_price').html('\u20ac '+skintone_price);
+                                    $('#checkout_eye_price').html('\u20ac '+eye_price);
+                                    $('#checkout_hair_price').html('\u20ac '+hair_price);
+                                    $('#checkout_character_price').html('\u20ac '+character_price);";
+
+                                    echo "if(gender_change == 'geslacht'){";
+                                    echo "$('#checkout_gender_change').show();";
+                                    echo "};";
+
+                                    echo "if(skin_change == 'huidskleur'){";
+                                    echo "$('#checkout_skin_change').show();";
+                                    echo "};";
+
+                                    echo "if(eye_change == 'oogkleur'){";
+                                    echo "$('#checkout_eye_change').show();";
+                                    echo "};";
+
+                                    echo "if(hair_change == 'haar'){";
+                                    echo "$('#checkout_hair_change').show();";
+                                    echo "};";
+
+                                    echo "if(character_change == 'karakter'){";
+                                    echo "$('#checkout_character_change').show();";
+                                    echo "};";
+
+
+
+        echo "});";
 
     echo "	var totale_kosten = 0;
     		var aantal_aanpassingen = 0;
+            
             $('#aantalaanpassingen').html(aantal_aanpassingen);
+
+            
 
 
 
@@ -30,11 +90,11 @@ echo "<script type='text/javascript'>";
             var hair_price = parseInt($('#hair_change').attr('alt'));
             var character_price = parseInt($('#character_change').attr('alt'));
 
-            $('#gender_price').html(gender_price);
-            $('#skintone_price').html(skintone_price);
-            $('#eye_price').html(eye_price);
-            $('#hair_price').html(hair_price);
-            $('#character_price').html(character_price);
+            $('#gender_price').html('\u20ac '+gender_price);
+            $('#skintone_price').html('\u20ac '+skintone_price);
+            $('#eye_price').html('\u20ac '+eye_price);
+            $('#hair_price').html('\u20ac '+hair_price);
+            $('#character_price').html('\u20ac '+character_price);
 
             
             $('.change').click(function(){
@@ -64,8 +124,11 @@ echo "<script type='text/javascript'>";
                 $('.shopping_cart').trigger('click');
 
                 
-               
+                
                 return totale_kosten;
+                return aantal_aanpassingen;
+
+                
             	
             });";
 
@@ -131,7 +194,9 @@ echo "<script type='text/javascript'>";
                         echo "$('#characterchange').show();";
                         echo "};";
 
-		            echo "$('#totale_kosten').html(totale_kosten);";
+		            echo "$('#totale_kosten').html('\u20ac '+totale_kosten);";
+                    
+                    
 		            
 		            echo "console.log(totale_kosten);";
 	        		echo "$('#shoppingbag').slideDown(300);";
@@ -195,11 +260,14 @@ echo "<script type='text/javascript'>";
                     echo "aantal_aanpassingen = aantal_aanpassingen - 1;";
 
                     echo "$('#aantal_aanpassingen').html(aantal_aanpassingen);";
-                    echo "$('#totale_kosten').html(totale_kosten);";
+                    echo "$('#totale_kosten').html('\u20ac '+totale_kosten);";
 
-                   
+                    
+
                     echo "return totale_kosten;";
                     echo "return aantal_aanpassingen;";
+
+                    
 
                 echo "});";
 
@@ -227,10 +295,12 @@ echo "</script>";
 
 	        <div class='shoppingbag_list'>
 	          	
-	          	<p>totale kosten  &#8364</p><p id='totale_kosten'></p>
+	          	<p>totale kosten</p><p id='totale_kosten'></p>
 	        </div>
           	<div id='checkout_button'>
           		<p>check out</p>
           	</div>
           </div>";
+
+
 ?>

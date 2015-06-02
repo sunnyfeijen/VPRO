@@ -148,7 +148,27 @@
                 <p id='black_eye_warning'>In de benodigde DNA string zit een foutenmarge van 1.6%. Deze foutmarge kan resulteren in <i>slechtziendheid</i>.</p>
                 <a>x</a>
             </section>
-        
+        <section id='checkout_screen'>
+            <section id='factuur'>
+                <div id='factuur_logo'></div>
+                <div id='checkout_parent'>
+                    <h3>Parents</h3>
+                    <p id='checkout_parent1_name'></p>
+                    <p id='checkout_parent2_name'></p>
+                    <p id='checkout_parent3_name'></p>
+                    <p id='checkout_parent4_name'></p>
+                </div>
+                <div class='checkout_div_bold'><p>Omschrijving</p><p>Bedrag</p></div>
+                <div id='checkout_gender_change' class='checkout_div'><p>Wijziging Locus D21S11 <span class='locus_description'>(gender)</span></p><p id='checkout_gender_price' class='checkout_price'></p></div>
+                <div id='checkout_skin_change' class='checkout_div'><p>Wijziging Locus FGA <span class='locus_description'>(skintone)</span></p><p id='checkout_skintone_price' class='checkout_price'></p></div>
+                <div id='checkout_eye_change' class='checkout_div'><p>Wijziging Locus D19S4 33 <span class='locus_description'>(eye color)</span></p><p id='checkout_eye_price' class='checkout_price'></p></div>
+                <div id='checkout_hair_change' class='checkout_div'><p>Wijziging Locus D8S1 179 <span class='locus_description'>(hair)</span></p><p id='checkout_hair_price' class='checkout_price'></p></div>
+                <div id='checkout_character_change' class='checkout_div'><p>Wijziging Locus TH01 <span class='locus_description'>(charateristics)</span></p><p id='checkout_character_price' class='checkout_price'></p></div>
+                <div id='checkout_subtotaal' class='checkout_totaal'><p>Subtotaal</p><p id='checkout_subtotale_kosten'></p></div>
+                <div id='checkout_btw' class='checkout_totaal'><p>Btw (21%)</p><p id='checkout_btw_kosten'></p></div>
+                <div id='checkout_totaal' class='checkout_totaal'><p>Totaal</p><p id='checkout_totale_kosten'></p></div>
+            </section>
+        </section>
         </section>
 
 
