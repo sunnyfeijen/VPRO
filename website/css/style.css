@@ -42,8 +42,8 @@ html
     
     color: #000;
     display: block;
-    width:1024px;
-    margin: auto;
+    width:100%;/*
+    margin: auto;*/
     margin-top: 2em;
 }
 
@@ -125,14 +125,24 @@ h1{
     float:left;
     overflow: hidden;
 }
-.paragraph{
-    width:45%;
+.paragraph1{
+    width:35%;
+    margin-left: 10%;
+    margin-right: 5%;
     float:left;
     margin-bottom: 2em;
 }
-.paragraph:nth-child(even){
-    margin-left: 10%;
+
+.paragraph2{
+    width:35%;
+    margin-left: 5%;
+    margin-right: 10%;
+    float:left;
+    margin-bottom: 2em;
 }
+/*.paragraph:nth-child(even){
+    margin-left: 10%;
+}*/
 
 .left
 {
@@ -145,5 +155,55 @@ h1{
     width: 75%;
     float: left;
 }
+
+.video
+{
+    width: 100%;
+    height: 200px;
+    float: left;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 10%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width : 868px) {
+    
+    .paragraph1
+    {
+        width:80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        float:left;
+        margin-bottom: 2em;
+    }   
+
+    .paragraph2{
+        width:80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        float:left;
+        margin-bottom: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 

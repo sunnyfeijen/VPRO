@@ -23,14 +23,14 @@ include 'build/head.php';
       <h3></h3>
           <div class='two_paragraphs'>
                 <div class="textwrap">
-                  <div class='paragraph'>
+                  <div class='paragraph1'>
                     <h1>ONZE TECHNIEK</h1>
                   <p>
                     De menselijke evolutie is gestopt. De overlevingskans van een mens wordt tegenwoordig niet meer bepaald door je genen. Iedereen heeft gelijke kansen om te overleven. Zo zijn sterke spieren niet meer nodig, aangezien er niet meer gejaagd hoeft te worden. Zelfs intelligentie is niet meer nodig, aangezien machines in de toekomst ons werk over zullen nemen.<br><br>
                     Wij zijn geïnspireerd geraakt door dit probleem, en zochten naar een oplossing. In 2009 hebben we onderzoek gestart naar het menselijk gen en hebben ontdekt hoe we delen uit een gen kunnen combineren met het gen van anderen. De techniek die we ontwikkeld hebben heet de pluma-transira technologie.
                   </p>
                 </div>
-                <div class='paragraph'>
+                <div class='paragraph2'>
                   <h1>OVER ONS</h1>
                   <p>
                     Na vele successen hebben we in 2013 een bedrijf gestart: Genetechs.

@@ -42,7 +42,7 @@ include 'build/head.php';
       <h3></h3>
           <div class='two_paragraphs'>
                 <div class="textwrap">
-                  <div class='paragraph'>
+                  <div class='paragraph1'>
                     <h1>CONTACT</h1>
                   <p>
                       Wanneer u interesse heeft in onze diensten kunt u onderstaande gegevens raadplegen. We hopen snel met u in contact te komen.
@@ -58,9 +58,9 @@ include 'build/head.php';
                       info@genetechs.nl
                   </p>
                 </div>
-                <div class='paragraph'>
+                <div class='paragraph2'>
+                  <h1>OPENINGSTIJDEN</h1>
                   <div class="left">
-                    <h1>OPENINGSTIJDEN</h1>
                     <p>
                       Maandag:
                       <br>
@@ -80,7 +80,6 @@ include 'build/head.php';
 
                   <div class="right">
                     <p>
-                      <br><br>
                       gesloten.
                       <br>
                       10:00 - 17:00.
