@@ -117,7 +117,7 @@ input[type='submit']:hover{
 #download_dna:active{
   background-color: rgba(73,115,107,0.5);
 }
-#continue{
+#continue, #afsluiten{
     cursor: pointer;
   position: absolute;
   text-transform: uppercase;
@@ -505,12 +505,10 @@ cursor: pointer;
   background-color: white;
   z-index: 9;
   position: absolute;
-/*    width: 712%;
-  height: 100vh;
-  background-color: white;
-  z-index: 999;
-  left: -1236px;
-  position: absolute !important;*/
+  background-image: url("img/dna2.png");
+  background-size: 50%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
 }
 #factuur{
   width:50%;
