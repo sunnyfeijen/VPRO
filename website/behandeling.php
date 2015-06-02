@@ -30,7 +30,7 @@ include 'build/head.php';
                   </p>
                 </div>
                 <div class='paragraph'>
-                    <h1>HOE WERKT HET</h1>
+                    <h1>Van cel tot kind</h1>
                   <p>
                     Na het selecteren van het DNA, wordt er één cel gemaakt en op een chip geplaatst. Deze chip zorgt ervoor dat de cel uitgroeit tot een embryo. Zo wordt het begin van uw baby ontwikkeld. Wanneer het embryo groot genoeg is om zelfstandig verder te groeien, wordt het embryo via IVF-technieken in de baarmoeder van de draagmoeder geplaatst. Hierna groeit het kind volledig uit tot een prachtig kind dat aan al uw wensen zal voldoen.
                   </p>
