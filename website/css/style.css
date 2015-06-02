@@ -65,8 +65,7 @@ h1{
     text-transform: uppercase;
     font-weight: 0.8em;
 }
-
-#fotoslide1{
+#fotoslide1, #fotoslide2, #fotoslide3,#fotoslide4{
     width:100%;
     background-color: #4a736e;
     background-image: url(../img/olive_boy_long.jpg);
@@ -74,23 +73,16 @@ h1{
     background-position: center;
     height:20em;
 }
+#fotoslide1{
+    background-image: url(../img/olive_boy_long.jpg);
+}
 
 #fotoslide2{
-    width:100%;
-    background-color: #4a736e;
     background-image: url(../img/gebouw.jpg);
-    background-size: cover;
-    background-position: center;
-    height:20em;
 }
 
 #fotoslide3{
-    width:100%;
-    background-color: #4a736e;
-    background-image: url(../img/olive_boy.jpg);
-    background-size: cover;
-    background-position: center;
-    height:20em;
+    background-image: url(../img/olive_boy_long.jpg);
 }
 
 #fotoslide4{
@@ -197,7 +189,7 @@ h1{
 }
 
 @media only screen and (min-width : 1920px) {
-#fotoslide1{
+#fotoslide1, #fotoslide2, #fotoslide3, #fotoslide4{
     height:30em;
 }
 }

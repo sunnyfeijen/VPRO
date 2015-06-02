@@ -22,7 +22,7 @@ a
 
 .selected
 {
-    border-bottom: 5px solid #49736b !important;
+    border-bottom: 6px solid #49736b !important;
 }
 
 #header-nav 
@@ -197,7 +197,7 @@ nav[role=navigation] i
   }
     
   nav[role=navigation] li:hover{
-        border-bottom: 5px solid #49736b;
+        border-bottom: 6px solid #49736b;
         background-color: transparent;
   }
     
