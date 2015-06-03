@@ -22,12 +22,12 @@ a
 
 .selected
 {
-    border-bottom: 6px solid #49736b !important;
+    border-bottom: 5px solid #49736b !important;
 }
 
 #header-nav 
 {
-    height: 4em;
+    height: 5em;
     background-color: #585359;
     position: fixed;
     top: 0;
@@ -56,14 +56,14 @@ a.menu-link
     color: #fff;
     float: right;
     display: block;
-    margin-right: 10%;
+    padding: 0.7em;
     margin-top: 1em;
 }
 
 nav[role=navigation] 
 {
     clear: right;
-    margin-right: 0;
+    margin-right: 1em;
     position: absolute;
     width: 100%;
     -webkit-transition: all 0.3s ease-out;
@@ -128,14 +128,16 @@ nav[role=navigation] li a
 
 .brand 
 {
-    height: 4em;
+    height: 5em;
+    margin-left: 10%;
     float: left;
 }
 
 .brand img
 {
-      height: 2.5em;
-  padding-top: 0.75em;
+    height: 3em;
+    padding-top: 1em;
+    padding-right: 0em;
 }
 
 nav[role=navigation] i
@@ -197,7 +199,7 @@ nav[role=navigation] i
   }
     
   nav[role=navigation] li:hover{
-        border-bottom: 6px solid #49736b;
+        border-bottom: 5px solid #49736b;
         background-color: transparent;
   }
     
@@ -205,7 +207,7 @@ nav[role=navigation] i
   {
         color: #fff;
         border: 0;
-        padding: 2em 0.8em 1.1em;
+        padding: 2.3em 0.8em 2.1em 0.8em;
   }
     
   nav[role=navigation] i
@@ -223,10 +225,15 @@ nav[role=navigation] i
 @media screen and (min-width: 900px){
   .wrap
   {
-    width:80%;
+    width:1024px;
     margin: auto;
   }
-
+  
+  .brand img
+  {
+    padding-top: 0.8em;
+    height: 3.5em;
+  }
 }
 
 .container 

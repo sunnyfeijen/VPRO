@@ -34,7 +34,7 @@ include 'build/head.php';
 		            </div>
 		            <div class='paragraph2'>
 		            	<div class="video">
-							<!-- <iframe width="100%" src="https://www.youtube.com/embed/V32NB28QAtE?rel=0" frameborder="0" allowfullscreen></iframe> -->
+							<iframe width="100%" src="https://www.youtube.com/embed/V32NB28QAtE?rel=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 	  				</div>
 	  				
