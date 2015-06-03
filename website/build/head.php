@@ -5,7 +5,8 @@
     <title>Genetechs</title>
     <meta name="description" content="Genetechs">
   <meta name="author" content="Genetechs">
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">
   <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
     

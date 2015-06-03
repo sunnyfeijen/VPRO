@@ -186,6 +186,12 @@ h1{
         float:left;
         margin-bottom: 2em;
     }
+    html{
+        background-size: 200%;
+    }
+    .brand{
+        margin-left: 10%;
+    }
 }
 
 @media only screen and (min-width : 1920px) {
